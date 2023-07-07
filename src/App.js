@@ -1,5 +1,5 @@
-import { Abishkar } from './Abishkar';
 import './App.css';
+import { Footer } from './footer/Footer';
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       welcome to biz vision website
 
 
-<Abishkar/>
+<Footer/>
+
     </div>
   );
 }
