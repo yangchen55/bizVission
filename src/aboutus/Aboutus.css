@@ -1,0 +1,61 @@
+.aboutusbody{
+    background-color: #F3FAFF;
+    width: 100%;
+    min-height: 30vh;
+}
+
+.aboutusbodyfont{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    
+}
+.aboutusbodyfontbody{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    
+}
+
+.hero{
+    
+}
+
+.visionpargraph{
+    background-color: #F3FAFF;
+}
+
+.visionheader{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#326CF3;
+    margin: 0px 0px 24px;
+    font-weight: bold;
+}
+
+.visionbody{
+    color: #343646;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 24px;
+    font-size: 16px inter;
+}
+
+.teamheader{
+font-size: 48px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif Arial, Helvetica, sans-serif;
+margin: 0px 0px 20px;
+color: #343646;
+}
+
+.teamname{
+    color: #326CF4;
+    font-size: 18px;
+    margin: 0px 0px 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teamnamebody{
+  color: #323646;
+    font-family: sans-serif, Times, serif, Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+}
