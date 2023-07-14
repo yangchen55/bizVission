@@ -1,0 +1,47 @@
+.body{
+    min-height: 50vh;
+}
+
+ .bodytop{
+    color: #326CF4;
+    font-size: 12px inter;
+    font-family: sans-serif;
+    font-weight: bold;
+ }
+
+ .bodyhead{
+   
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+ }
+
+ .bodyparagrap{
+   font-size: 21px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+ }
+
+ .careerbody{
+    background-color: #F3FAFF;
+ }
+
+ .lifetitle{
+   color: #326CF4;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: bolder;
+ }
+
+ .col1{
+      
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 16px;
+
+    
+ }
+
+li{
+   font-size: 16px;
+   font-weight: bold;
+}
