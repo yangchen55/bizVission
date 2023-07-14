@@ -1,14 +1,19 @@
 import React from 'react'
+import GlobalLayout from '../globalLayout/GlobalLayout'
 import ClosedDeal from './closedDeal/ClosedDeal'
 import Hero from './HeroContent/Hero'
 import Middle from './middleMarket/Middle'
 
-const Home = () => {
+const Home = ({ children }) => {
     return (
         <>
-            <Hero />
-            <Middle />
-            <ClosedDeal />
+            <GlobalLayout>
+                <Hero />
+                <Middle />
+                <ClosedDeal />
+
+            </GlobalLayout>
+
 
         </>
 

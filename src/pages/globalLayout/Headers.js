@@ -8,6 +8,8 @@ import Offcanvas from 'react-bootstrap/Offcanvas';
 import Col from 'react-bootstrap/Col';
 import './header.css'
 import logo from '../../assets/logo.png';
+import { Link } from 'react-router-dom';
+import GlobalLayout from './GlobalLayout';
 const Headers = () => {
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -24,6 +26,7 @@ const Headers = () => {
         };
     }, []);
     return (
+
         <header style={{ position: 'fixed', top: 0, width: '100%', zIndex: 100 }} >
             <Navbar expand="md" className={isScrolled ? 'scrolled' : 'navbar mb-3'}>
                 <Container fluid>
@@ -120,11 +123,17 @@ const Headers = () => {
                                             <h5>What is Axial</h5> </NavDropdown.Item>
                                         <NavDropdown.Divider />
                                         <div className='d-flex flex-row'>
-                                            <NavDropdown.Item href="#action/3.2">
-                                                <h5> Meet the Team </h5>
+                                            <NavDropdown.Item >
+                                                <Link to="/whoweare" className='nav-link'>
+                                                    <h5> Meet the Team </h5>
+                                                </Link>
+
                                             </NavDropdown.Item>
-                                            <NavDropdown.Item href="#action/3.4">
-                                                <h5> Careers at BizVision</h5>
+                                            <NavDropdown.Item >
+                                                <Link to="/whoweare/careetAtBizvision" className='nav-link'>
+                                                    <h5> Careers at BizVision</h5>
+                                                </Link>
+
 
                                             </NavDropdown.Item>
                                         </div>
