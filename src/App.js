@@ -15,7 +15,6 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/whoweare' element={<AboutUs />} />
           <Route path='/whoweare/careetAtBizvision' element={<CareersPage />} />
-
         </Routes>
       </BrowserRouter>
 
