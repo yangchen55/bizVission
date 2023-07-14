@@ -1,0 +1,64 @@
+.ticker1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  overflow: hidden;
+}
+
+.hero-content {
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.ticker1-prefix {
+  margin: 0 0.25em 0 0;
+  font-size: 40px;
+}
+
+.ticker1-main {
+  animation: ticker1-scroll 15s linear infinite;
+  overflow: hidden;
+  font-weight: 700;
+  transform: translateZ(0);
+  font-size: 40px;
+}
+
+.ticker1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ticker1 ul li {
+  color: #888; /* Set the default color for inactive list items */
+  transition: color 0.3s ease; /* Add a transition effect for a smooth color change */
+}
+
+.ticker1 ul li.-active {
+  color: #000; /* Set the dark color for the active list item */
+}
+
+@keyframes ticker1-scroll {
+  0% {
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+  }
+  100% {
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+}
+.hero-background {
+  background-color: #31102f;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(49, 16, 47, 1) 0%,
+    rgba(40, 11, 41, 1) 100%
+  );
+}
