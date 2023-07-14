@@ -6,17 +6,17 @@ import { Footer } from './footer/Footer';
 function App() {
   return (
     <div className="App">
-     <p className='text-center'> welcome to biz vision website</p>
+     <p className='text-center'> welcome to bizvision website</p>
 
 
-{/* <Footer/> */}
-{/* 
-<AboutUs/> */}
 
-<CareersPage/>
+ 
+<AboutUs/> 
+
+{/* <CareersPage/> */}
 
     </div>
-  );
+  )
 }
 
 export default App;
