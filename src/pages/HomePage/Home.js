@@ -3,6 +3,7 @@ import GlobalLayout from '../globalLayout/GlobalLayout'
 import ClosedDeal from './closedDeal/ClosedDeal'
 import Hero from './HeroContent/Hero'
 import Middle from './middleMarket/Middle'
+import { CaseStudies } from './casestudies/CaseStudies'
 
 const Home = ({ children }) => {
     return (
@@ -11,6 +12,7 @@ const Home = ({ children }) => {
                 <Hero />
                 <Middle />
                 <ClosedDeal />
+                <CaseStudies/>
 
             </GlobalLayout>
 

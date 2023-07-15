@@ -59,9 +59,9 @@ const ClosedDeal = () => {
                 <Button variant='primary' className='bold-text' href='closeddeal.html'>View all</Button>
 
             </div>
-            <div className='emptyDiv'>
+            {/* <div className='emptyDiv'>
 
-            </div>
+            </div> */}
 
         </div>
     )

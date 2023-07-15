@@ -1,0 +1,29 @@
+.case-studies-hero{
+    background-color: #F3FAFF;
+}
+
+.case-header{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.case-sec-header{
+    color: #326CF4;
+    font-size: 36px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif sans-serif;
+    
+}
+
+.case-first-paragraph{
+    color: #326CF4;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+.case-second-paragraph{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}

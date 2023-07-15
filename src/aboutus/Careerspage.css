@@ -45,3 +45,55 @@ li{
    font-size: 16px;
    font-weight: bold;
 }
+.value{
+   font-weight: bold;
+}
+
+.boldfont{
+   font-size: 16px;
+   font-weight: bold;
+
+}
+
+.bringtotop{
+   color: #326CF4;
+   font-family: sans-serif;
+   font-size: 14px;
+   
+ }
+
+ .advheader{
+   font-family:  'Times New Roman', Times, serif Arial, Helvetica, sans-serif;
+   font-size: 26px;
+   color: #326CF4;
+   font-weight: bold;
+ }
+
+ .advbody{
+   color: black;
+   font-size: 26px;
+   font-family: Arial, Helvetica, sans-serif 'Times New Roman', Times, serif Arial, Helvetica, sans-serif;
+
+   font-weight: bold;
+ }
+
+ .advsection{
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+ }
+
+ .vertical-line{
+   border-left: 4px solid  #326CF4;
+   height: 100px;
+
+   
+ }
+
+ .advantage-paragraph{
+   font-size: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bolder;
+   
+ }
+

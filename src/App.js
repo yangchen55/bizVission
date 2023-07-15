@@ -9,15 +9,19 @@ import { CareersPage } from './aboutus/CareersPage'
 import Home from './pages/HomePage/Home';
 function App() {
   return (
-    <div className="App">
-     <p className='text-center'> welcome to bizvision website</p>
+    <div>
+       <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/whoweare' element={<AboutUs />} />
+          <Route path='/whoweare/careetAtBizvision' element={<CareersPage />} />
+        </Routes>
+      </BrowserRouter>
+
+     
 
 
 
- 
-<AboutUs/> 
-
-{/* <CareersPage/> */}
 
     </div>
   )

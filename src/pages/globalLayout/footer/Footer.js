@@ -3,31 +3,28 @@ import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Footer.css'
+import logo from '../../../assets/logo.png';
 
 export const Footer = ({children}) => {
   return (
     <div>
         <main className='main'>
-          <p className='footerpragraph'> BizVisions Pursue the extoraordinary.</p>
-        
+          {/* <p className='footerpragraph'> BizVisions Pursue the extoraordinary.</p>
+          */}
 
             </main>
             <Container className='footer' fluid>
-
+          
 
        
             <div className='col py-5'>
-                  <div>Company logo</div>
-                    <div><i class="fa-solid fa-phone" style={{color:' #3f85fd'}}></i> 02 8005 7003 </div>
-                    <div className='gap-3'> <span className='text-center' type='submit'> Sign in </span></div>
+                  <div><img src={logo} alt="Logo" width="150" height="60" /></div>
+                    <div><i class="fa-solid fa-phone-flip" style={{color:' #3f85fd'}}></i>  02 8005 7003 </div>
+                    <div className='gap-3'> <Button className='text-center' type='submit'> Sign in </Button></div>
                     <div className=''> <Button className='fa-14px' type='submit'> Get Started <i class="fa-solid fa-check"></i> </Button></div>
             
             </div>
-            {/* <Col md="7">
-            <i class="fa-solid fa-phone"></i> 02 8005 7003  </Col>
-            <Col md="1"> <button className='btn btn-primary btn-sm' type='submit'> Sign in </button> </Col>
-            <Col md="1"> <button className='btn btn-primary btn-sm' type='submit'> Get Started <i class="fa-light fa-arrow-right"></i></button>
-             </Col> */}
+           
        
 
         <Row className='px-5'>
@@ -57,7 +54,7 @@ export const Footer = ({children}) => {
 
             <hr/>
 
-            <div className='footertext mt-4'>© 2010-2023 BizVision. All Rights Reserved </div>
+            <div className='footertext mt-4 p-5'>© 2010-2023 BizVision. All Rights Reserved </div>
 
 
        

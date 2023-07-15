@@ -31,7 +31,7 @@ const Headers = () => {
             <Navbar expand="md" className={isScrolled ? 'scrolled' : 'navbar mb-3'}>
                 <Container fluid>
                     <Col>
-                        <Navbar.Brand href="#home">
+                        <Navbar.Brand href="/">
                             <img src={logo} alt="Logo" width="150" height="60" />
                         </Navbar.Brand>
                     </Col>
@@ -48,7 +48,7 @@ const Headers = () => {
                     >
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title id="offcanvasNavbarLabel-expand-md">
-                                <Navbar.Brand href="#home">
+                                <Navbar.Brand href="/">
                                     <img src={logo} alt="Logo" width="150" height="60" />
                                 </Navbar.Brand>
                             </Offcanvas.Title>
