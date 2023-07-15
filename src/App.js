@@ -1,8 +1,12 @@
-import './App.css';
-import { AboutUs } from './aboutus/AboutUs';
-import { CareersPage } from './aboutus/CareersPage';
-import { Footer } from './footer/Footer';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { AboutUs } from './aboutus/AboutUs';
+import { CareersPage } from './aboutus/CareersPage'
+
+
+
+import Home from './pages/HomePage/Home';
 function App() {
   return (
     <div className="App">
