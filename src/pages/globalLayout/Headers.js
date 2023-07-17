@@ -9,7 +9,7 @@ import Col from 'react-bootstrap/Col';
 import './header.css'
 import logo from '../../assets/logo.png';
 import { Link } from 'react-router-dom';
-import GlobalLayout from './GlobalLayout';
+
 const Headers = () => {
     const [isScrolled, setIsScrolled] = useState(false);
 
@@ -89,8 +89,11 @@ const Headers = () => {
                                     </NavDropdown>
                                     <NavDropdown title="For Business Buyers" id="basic-nav-dropdown">
                                         <div className='d-flex flex-row'>
-                                            <NavDropdown.Item href="#action/3.1">
-                                                <h5>Hire an M&A Advisor</h5>
+                                            <NavDropdown.Item>
+                                                <Link to="/howitworks/hiringanadvisor/concealed" className='nav-link'>
+                                                    <h5>Hire an M&A Advisor</h5>
+                                                    </Link>
+                                                
 
                                             </NavDropdown.Item>
                                             <NavDropdown.Item href="#action/3.2" >

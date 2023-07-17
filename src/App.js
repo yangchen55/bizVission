@@ -7,6 +7,7 @@ import { CareersPage } from './aboutus/CareersPage'
 
 
 import Home from './pages/HomePage/Home';
+import { HireAdvisor } from './pages/forbusinessBuyers/HireAdvisor';
 function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/whoweare' element={<AboutUs />} />
           <Route path='/whoweare/careetAtBizvision' element={<CareersPage />} />
+          <Route path='//howitworks/hiringanadvisor/concealed' element={<HireAdvisor/>} />
         </Routes>
       </BrowserRouter>
 
