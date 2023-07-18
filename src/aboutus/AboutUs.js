@@ -59,6 +59,11 @@ export const AboutUs = ({ Children }) => {
 
       </div>
 
+      <main className='main'>
+         
+
+            </main>
+
     </GlobalLayout>
 
 

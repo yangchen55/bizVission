@@ -96,8 +96,9 @@ const Headers = () => {
                                                 
 
                                             </NavDropdown.Item>
-                                            <NavDropdown.Item href="#action/3.2" >
-                                                <h5>Exit Your Business</h5>
+                                            <NavDropdown.Item  >
+                                            <Link to="/howitworks/sellingandbuyingforowners" className='nav-link'> <h5>Exit Your Business</h5> </Link>
+                                               
 
                                             </NavDropdown.Item>
 

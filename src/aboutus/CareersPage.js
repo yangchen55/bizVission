@@ -218,6 +218,11 @@ export const CareersPage = () => {
 
       </div>
 
+      <main className='main'>
+         
+
+            </main>
+
     </GlobalLayout>
 
   )

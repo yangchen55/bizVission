@@ -14,6 +14,11 @@ const Home = ({ children }) => {
                 <ClosedDeal />
                 <CaseStudies/>
 
+                <main className='main'>
+         
+
+            </main>
+
             </GlobalLayout>
 
 

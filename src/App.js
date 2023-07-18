@@ -7,7 +7,9 @@ import { CareersPage } from './aboutus/CareersPage'
 
 
 import Home from './pages/HomePage/Home';
-import { HireAdvisor } from './pages/forbusinessBuyers/HireAdvisor';
+import { HireAdvisor } from './pages/forbusinessBuyers/hireadvisor/HireAdvisor';
+import { ExitBusiness } from './pages/forbusinessBuyers/exitbusiness/ExitBusiness';
+
 function App() {
   return (
     <div>
@@ -17,6 +19,8 @@ function App() {
           <Route path='/whoweare' element={<AboutUs />} />
           <Route path='/whoweare/careetAtBizvision' element={<CareersPage />} />
           <Route path='//howitworks/hiringanadvisor/concealed' element={<HireAdvisor/>} />
+          <Route path='//howitworks/sellingandbuyingforowners/' element={<ExitBusiness/>} />
+
         </Routes>
       </BrowserRouter>
 

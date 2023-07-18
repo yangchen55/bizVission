@@ -5,20 +5,20 @@
  .bodytop{
     color: #326CF4;
     font-size: 12px inter;
-    font-family: sans-serif;
+    font-family:Inter, "Helvetica Neue", Arial, sans-serif;;
     font-weight: bold;
  }
 
  .bodyhead{
    
-    font-family: sans-serif;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
     font-weight: bold;
     font-size: 56px;
  }
 
  .bodyparagrap{
    font-size: 21px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
    
  }
 
@@ -28,14 +28,14 @@
 
  .lifetitle{
    color: #326CF4;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family:Inter, "Helvetica Neue", Arial, sans-serif;;
    font-size: 18px;
    font-weight: bolder;
  }
 
  .col1{
       
-      font-family: Arial, Helvetica, sans-serif;
+      font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
       font-size: 16px;
 
     
@@ -57,13 +57,13 @@ li{
 
 .bringtotop{
    color: #326CF4;
-   font-family: sans-serif;
+   font-family:Inter, "Helvetica Neue", Arial, sans-serif;;
    font-size: 14px;
    
  }
 
  .advheader{
-   font-family:  'Times New Roman', Times, serif Arial, Helvetica, sans-serif;
+   font-family:Inter, "Helvetica Neue", Arial, sans-serif;;
    font-size: 26px;
    color: #326CF4;
    font-weight: bold;
@@ -72,14 +72,14 @@ li{
  .advbody{
    color: black;
    font-size: 26px;
-   font-family: Arial, Helvetica, sans-serif 'Times New Roman', Times, serif Arial, Helvetica, sans-serif;
+   font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
 
    font-weight: bold;
  }
 
  .advsection{
    font-size: 18px;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
    font-weight: lighter;
  }
 
@@ -92,7 +92,7 @@ li{
 
  .advantage-paragraph{
    font-size: 18px;
-   font-family: Arial, Helvetica, sans-serif;
+   font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
    font-weight: bolder;
    
  }
