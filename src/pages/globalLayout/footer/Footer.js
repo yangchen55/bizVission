@@ -17,7 +17,10 @@ export const Footer = ({children}) => {
                   <div><img src={logo} alt="Logo" width="150" height="60" /></div>
                     <div><i class="fa-solid fa-phone-flip" style={{color:' #3f85fd'}}></i>  02 8005 7003 </div>
                     <div className='gap-3'> <Button className='text-center' variant='outline-primary' type='submit'> Sign in </Button></div>
+                    <Link to="/request-information">
                     <div className=''> <Button className='fa-14px' type='submit'> Get Started <i class="fa-solid fa-check"></i> </Button></div>
+                    </Link>
+               
             
             </div>
            

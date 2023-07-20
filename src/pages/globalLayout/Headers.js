@@ -149,7 +149,8 @@ const Headers = () => {
                                         <a href="tel:1.800.860.4519"><i class="fa-solid fa-phone-flip"></i> </a> <span>1.800.860.4519</span>
                                     </Nav.Link>
                                     <Button variant='light' className='signInButton m-1'>Sign in </Button>
-                                    <Button variant="outline-light" className='signInButton m-1'> Get Started</Button>
+                                    <Link to="/request-information"> <Button variant="outline-light" className='signInButton m-1'> Get Started</Button></Link>
+                                    
                                 </Nav>
 
                             </Nav>

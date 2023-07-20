@@ -5,6 +5,7 @@ import './HireAdvisor.css'
 import img11 from '../../../assets/img11.png'
 import img10 from '../../../assets/img10.png'
 import { HireCaseStudies } from './HireCaseStudies'
+import { Link } from 'react-router-dom'
 
 
 export const HireAdvisor = () => {
@@ -25,7 +26,9 @@ export const HireAdvisor = () => {
             <p className='bodyparagrap'>Axial's Advisor Finder program guides business owners through the M&A Advisor identification, 
             <br/>interview, and hiring process. Leveraging 10 years of behavioral data and relationships on the Axial<br/> platform, we help you choose the right advisor for your business.</p>
 
-            <Button>Request Information <i class="fa-solid fa-check"></i></Button>
+
+            
+            <Link to="/request-information"><Button>Request Information <i class="fa-solid fa-check"></i></Button> </Link>
           </div>
         </div>
 
@@ -80,7 +83,10 @@ export const HireAdvisor = () => {
                  <ul> Our comprehensive process ensures that your identity remains confidential while you compare advisor candidates, their experience, fee structures, and general suitability for the project. 
                     The ball is in your court, and we stay right there by your side throughout the entire process.</ul>
 
-                   <ul> <Button className='buy-row2-col2-button'>Join BizVision Now</Button></ul> 
+                   <ul>
+                    <Link to="/request-information">   <Button className='buy-row2-col2-button'>Join BizVision Now</Button></Link>
+                   
+                     </ul> 
 
                  </p>
                  
@@ -110,7 +116,8 @@ export const HireAdvisor = () => {
 
            <div className='main consultation'>
            <p > Schedule a Free Consultation</p>
-           <Button>Schedule a Free Consultation {" "}<i class="fa-solid fa-check"></i> </Button>
+           <Link to="/request-information"> <Button>Schedule a Free Consultation {" "}<i class="fa-solid fa-check"></i> </Button></Link>
+           
            </div>
 
            <HireCaseStudies/>

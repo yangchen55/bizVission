@@ -7,6 +7,7 @@ import img14 from '../../../assets/img14.png'
 import '../hireadvisor/HireAdvisor.css'
 import './exitbusiness.css'
 import { Link } from 'react-router-dom'
+import { BussinessCase } from './BussinessCase'
 
 export const ExitBusiness = () => {
     const bringToTop = ()=>{
@@ -16,9 +17,9 @@ export const ExitBusiness = () => {
     <div>
         <GlobalLayout>
 
-        <div className=' hero'>
+        <div className='hero'>
 
-<div className=' p-5 body container'>
+   <div className=' p-5 body container'>
 <div className="container p-5">
 <p className='bodytop'>EXIT YOUR BUSINESS</p>
 <h1 className='bodyhead'>Find the Right Buyer or Investor. </h1>
@@ -27,13 +28,14 @@ Axial provides curated recommendations of capital partners for your business, or
 represent you in a transaction. Research by deal criteria, transaction experience, and reputation,<br/>
  then confidentially reach out with complete control and discretion when the timing is right.
 </p>
+<Link to="/request-information"> <Button>Request Information <i class="fa-solid fa-check"></i></Button></Link>
 
-<Button>Request Information <i class="fa-solid fa-check"></i></Button>
+
 </div>
-</div>
+ </div>
 
 
-<div className='hirebody'>
+      <div className='hirebody'>
 <div className=' container'>
 <p className='container p-5 lifetitle '> 3 Reasons to join BizVision</p>
 
@@ -143,7 +145,44 @@ represent you in a transaction. Research by deal criteria, transaction experienc
 
 
 </div>
-</div>
+      </div>
+
+
+      <div className='container p-3'>
+        <p className='exitbusiness div3-title'> Cultivate New Relationships</p>
+        <p className='exitbusiness div3-bodytitle'> As an Extension of Your Existing Network</p>
+    
+        <Row>
+        <Col>
+
+        <p className='exitbusiness div3-paragraph'>
+        "Day to day, I am focused on growing the business, finding new customers, and making sure our customers are as happy<br/> as possible. I have to deal with many things in a given day, which is fairly challenging."<br/><br/>
+
+        "One of the reasons I use Axial is to plan for the future. 2-3 years down the line, I'll be at the point where I'll be able to know that I <br/>need an advisor, and if I want to be acquired or make an acquisition. 
+        I'll be able to have a very clear idea of what I want to do. It is not something I take lightly, so I want to make sure I plan accordingly."
+
+        </p>
+      
+        
+        </Col>
+        <Col> Video</Col>
+
+        </Row>
+        
+      </div>
+
+
+      <div className='main div4 exitbusiness'>
+        <p>Get Started Today</p> <br/>
+        <Link to="/request-information"> 
+        <Button className='fw-700'>Request Membership <i class="fa-solid fa-check"></i></Button>
+        </Link>
+
+      </div>
+
+      <BussinessCase/>
+
+
 
 
      </div>

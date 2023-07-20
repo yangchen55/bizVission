@@ -78,7 +78,7 @@
   }
 
   .consultation{
-    display: grid;
+   display: grid;
    place-items: center;
    font-size: 28px;
    font-weight: 300;
@@ -86,7 +86,3 @@
    color: #F3FAFF;
 
   }
-ol{
-   list-style-type: decimal;
-   list-style-position: inside;
-}
