@@ -1,0 +1,15 @@
+.details {
+  font-family: Inter, Helvetica Neue, Arial, sans-serif;
+  font-size: 20px;
+  color: grey;
+}
+.pinpoint {
+  font-size: 55px;
+  font-weight: bold;
+}
+.sellside {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgb(76, 76, 238);
+  font-weight: 700;
+}

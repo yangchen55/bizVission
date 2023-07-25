@@ -8,8 +8,8 @@ import log from '../../../assets/middle2.png';
 
 const ClosedDeal = () => {
     return (
-        <div>
-            <h4 className='text-center bold-heading'>Closed Deals</h4>
+        <div className='bg-white'>
+            <h4 className='text-center bold-heading '>Closed Deals</h4>
             <p className='text-center closedDeals'>View some of the recent transactions that have closed on our platform</p>
             <Row className='d-flex justify-content-center'>
                 <Card style={{ width: '18rem' }} className="hover-card m-2">

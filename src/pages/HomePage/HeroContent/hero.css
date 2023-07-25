@@ -1,9 +1,60 @@
-.ticker1 {
+.hero1 {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 70px;
-  overflow: hidden;
+  justify-content: center;
+  position: relative;
+  margin-bottom: 0;
+}
+.hero1.-pull {
+  margin-top: calc(var(--spacer_top) * -1);
+}
+.hero1-background {
+  position: absolute;
+  left: 0;
+
+  bottom: 0;
+  width: 50%;
+  margin: 0;
+}
+.hero1-main {
+  position: relative;
+  width: 100%;
+  padding: var(--spacer5) 0;
+  text-align: center;
+}
+.hero1.-pull .hero1-main {
+  padding-top: calc(var(--spacer_top) + var(--spacer2));
+}
+.hero1-main > p {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero1-main .button1 {
+  --width: 160px;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 599px) {
+  .hero1-background {
+    bottom: 150px;
+  }
+  .hero1-main {
+    padding: var(--spacer3) 0;
+  }
+  .hero1.-pull .hero1-main {
+    padding-top: var(--spacer_top);
+  }
+  .hero1 .ticker1 {
+    margin-bottom: 10px;
+  }
+  .hero1-actions .button1 {
+    display: flex;
+    margin: 0;
+  }
+  .hero1-actions .button1:not(:last-child) {
+    margin-bottom: 10px;
+  }
 }
 
 .hero-content {
@@ -13,52 +64,69 @@
   font-size: 30px;
   font-weight: lighter;
 }
+/**
+ * @name .ticker1
+ * @description Homepage word cycler
+ * @example { }
+ */
+.ticker1 {
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+}
 
+.ticker1.-rewind,
+.ticker1.-rewind * {
+  transition-duration: 0s;
+}
 .ticker1-prefix {
-  margin: 0 0.25em 0 0;
-  font-size: 40px;
+  font-size: 44px;
 }
-
 .ticker1-main {
-  animation: ticker1-scroll 15s linear infinite;
   overflow: hidden;
-  font-weight: 700;
+  height: 250px;
+  /* background-color: blue; */
+  width: 250px;
   transform: translateZ(0);
-  font-size: 40px;
+  align-items: center;
+  margin-left: 30px;
 }
-
-.ticker1 ul {
-  list-style: none;
+.ticker1-track {
+  animation: ticker1-scroll 50s;
+  position: relative;
+  top: 0;
+}
+.ticker1-track ul {
   padding: 0;
+  text-align: left;
+}
+.ticker1-track li {
   margin: 0;
+  opacity: 0.09;
+  font-size: 30px;
+  transition: 0.5s opacity;
+  color: #0b2d40;
+  font-weight: bolder;
 }
 
-.ticker1 ul li {
-  color: #888; /* Set the default color for inactive list items */
-  transition: color 0.3s ease; /* Add a transition effect for a smooth color change */
+.ticker1-track li:before {
+  display: none;
+}
+.ticker1-track li.-active {
+  opacity: 1;
+}
+.ticker1-track li.-adjacent {
+  opacity: 0.22;
 }
 
-.ticker1 ul li.-active {
-  color: #000; /* Set the dark color for the active list item */
-}
-
-@keyframes ticker1-scroll {
-  0% {
-    -moz-transform: translateY(-100%);
-    -webkit-transform: translateY(-100%);
-    transform: translateY(-100%);
+@media screen and (max-width: 719px) {
+  .ticker1 {
+    font: 300 42px / var(--height) var(--font_face_1);
   }
-  100% {
-    -moz-transform: translateY(100%);
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
-  }
 }
-.hero-background {
-  background-color: #31102f;
-  background: radial-gradient(
-    ellipse at center,
-    rgba(49, 16, 47, 1) 0%,
-    rgba(40, 11, 41, 1) 100%
-  );
+@media screen and (max-width: 599px) {
+  .ticker1 {
+    --height: 26px;
+    font: 300 24px / var(--height) var(--font_face_1);
+  }
 }

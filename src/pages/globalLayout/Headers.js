@@ -59,29 +59,43 @@ const Headers = () => {
                                     <NavDropdown title="The Platform" id="basic-nav-dropdown">
                                         <div className='d-flex flex-row'>
                                             <Col xs={6}>
-                                                <NavDropdown.Item href="#action/3.1">
+                                                <NavDropdown.Item >
+                                                    <Link to="/selling-raising" className='nav-link'>
+                                                        <h5> Selling and Raising</h5>
+                                                        <p>sell side MA and capital raising</p>
+                                                    </Link>
 
-                                                    <h5> Selling and Raising</h5>
-                                                    <p>sell side MA and capital raising</p>
+
 
                                                 </NavDropdown.Item>
                                             </Col>
                                             <Col xs={6}>
-                                                <NavDropdown.Item href="#action/3.2">
-                                                    <h5> Acquiring and Investing</h5>
+
+
+                                                <NavDropdown.Item >
+                                                    <Link to="/buying-investing" className='nav-link'>
+                                                        <h5> Acquiring and Investing</h5>
+                                                        <p>sell side MA and capital raising</p>
+                                                    </Link>
                                                 </NavDropdown.Item>
                                             </Col>
                                         </div>
                                         <NavDropdown.Divider />
                                         <div className='d-flex flex-row '>
                                             <Col xs={6}>
-                                                <NavDropdown.Item href="#action/3.3">
-                                                    <h5>Middle Market Review</h5></NavDropdown.Item>
+                                                <NavDropdown.Item >
+                                                    <Link to="/forum" className='nav-link'>
+                                                        <h5> Middle Market Review</h5>
+                                                        <p>sell side MA and capital raising</p>
+                                                    </Link>
+                                                </NavDropdown.Item>
                                             </Col>
                                             <Col xs={6}>
-                                                <NavDropdown.Item href="#action/3.4">
-                                                    <h5> Tools and Resources
-                                                    </h5>
+                                                <NavDropdown.Item >
+                                                    <Link to="/forum/resources" className='nav-link'>
+                                                        <h5>Tool and Resources</h5>
+
+                                                    </Link>
                                                 </NavDropdown.Item>
                                             </Col>
                                         </div>

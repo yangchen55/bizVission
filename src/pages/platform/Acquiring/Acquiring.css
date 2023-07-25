@@ -1,0 +1,17 @@
+/* .yangchen container styles */
+.yangchen {
+  min-height: 300px; /* Set a minimum height for the container */
+  width: 50%; /* Adjust this value to your preference */
+  background-color: rgb(19, 104, 178);
+  position: relative; /* Ensure the container is positioned relative to its content */
+}
+
+/* .particle-background-container styles */
+.particle-background-container {
+  position: absolute; /* Position the particle background absolutely within the 'yangchen' container */
+  top: 0;
+  left: 0;
+  width: 100%; /* Take up the full width of the 'yangchen' container */
+  height: 100%; /* Take up the full height of the 'yangchen' container */
+  z-index: -1;
+}
