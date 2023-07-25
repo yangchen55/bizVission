@@ -1,25 +1,23 @@
 .main {
   min-height: 30vh;
   background: #15365d;
+  position: relative;
+}
+.footer {
+  min-height: 80vh;
+  background: #d4d6d8;
 }
 
 .footerpragraph {
   display: flex;
   justify-content: center;
-
   align-content: center;
-
   height: auto;
   min-width: var(--width);
-
   color: #ffffff;
   font-size: 36px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif Arial, Helvetica,
     sans-serif;
-}
-.footer {
-  background-color: #7b9cbb23;
-  min-height: 80vh;
 }
 
 .col {

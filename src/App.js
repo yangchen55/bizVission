@@ -7,6 +7,8 @@ import { CareersPage } from './aboutus/CareersPage'
 
 
 import Home from './pages/HomePage/Home';
+import Acquiring from './pages/platform/Acquiring/Acquiring';
+import Selling from './pages/platform/selling&Raising/Selling';
 function App() {
   return (
     <div>
@@ -15,6 +17,8 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/whoweare' element={<AboutUs />} />
           <Route path='/whoweare/careetAtBizvision' element={<CareersPage />} />
+          <Route path='selling-raising' element={<Selling />} />
+          <Route path='/buying-investing' element={<Acquiring />} />
         </Routes>
       </BrowserRouter>
 
