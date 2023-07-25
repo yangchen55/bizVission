@@ -48,7 +48,7 @@ const Headers = () => {
                     >
                         <Offcanvas.Header closeButton>
                             <Offcanvas.Title id="offcanvasNavbarLabel-expand-md">
-                                <Navbar.Brand href="#home">
+                                <Navbar.Brand href="/">
                                     <img src={logo} alt="Logo" width="150" height="60" />
                                 </Navbar.Brand>
                             </Offcanvas.Title>
@@ -103,12 +103,16 @@ const Headers = () => {
                                     </NavDropdown>
                                     <NavDropdown title="For Business Buyers" id="basic-nav-dropdown">
                                         <div className='d-flex flex-row'>
-                                            <NavDropdown.Item href="#action/3.1">
-                                                <h5>Hire an M&A Advisor</h5>
+                                            <NavDropdown.Item>
+                                                <Link to="/howitworks/hiringanadvisor/concealed" className='nav-link'>
+                                                    <h5>Hire an M&A Advisor</h5>
+                                                    </Link>
+                                                
 
                                             </NavDropdown.Item>
-                                            <NavDropdown.Item href="#action/3.2" >
-                                                <h5>Exit Your Business</h5>
+                                            <NavDropdown.Item  >
+                                            <Link to="/howitworks/sellingandbuyingforowners" className='nav-link'> <h5>Exit Your Business</h5> </Link>
+                                               
 
                                             </NavDropdown.Item>
 
@@ -156,10 +160,11 @@ const Headers = () => {
                                 </Nav>
                                 <Nav>
                                     <Nav.Link href="#link" id="nav-text">
-                                        <a href="tel:1.800.860.4519"><i class="fa-solid fa-phone-flip"></i> </a> <span>1.800.860.4519</span>
+                                        <a href="tel:1.800.860.4519"><i class="fa-solid fa-phone-flip"></i> </a> <span> 02 8005 7003</span>
                                     </Nav.Link>
                                     <Button variant='light' className='signInButton m-1'>Sign in </Button>
-                                    <Button variant="outline-light" className='signInButton m-1'> Get Started</Button>
+                                    <Link to="/request-information"> <Button variant="outline-light" className='signInButton m-1'> Get Started</Button></Link>
+                                    
                                 </Nav>
 
                             </Nav>

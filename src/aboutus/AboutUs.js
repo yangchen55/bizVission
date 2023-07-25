@@ -52,38 +52,17 @@ export const AboutUs = ({ Children }) => {
           <Cardpage />
 
 
-
-          {/* <Row >
-                <Col>
-                <col>{Children}</col>
-
-                <Col>
-                <figure title="jdjd" style={{ width:'30vh',  height:'34vh'}} className="m-3  card">
-            <img style={{width:'30vh',height:"25vh"}}  src={img2}/>
-
-            <figcaption className='shoppingcart'> dheheh</figcaption> 
-            <figcaption className='cardcss'> hdhdh</figcaption>
-
-
-        </figure></Col>
-                <Col>jidj</Col>
-                <Col>jidj</Col>
-                <Col>jidj</Col>
-
-                
-
-                 </Col>
-                
-              
-            </Row> */}
-
-
         </div>
 
 
 
 
       </div>
+
+      <main className='main'>
+         
+
+            </main>
 
     </GlobalLayout>
 
