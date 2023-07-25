@@ -1,0 +1,99 @@
+.body{
+    min-height: 50vh;
+}
+
+ .bodytop{
+    color: #326CF4;
+    font-size: 12px inter;
+    font-family:Inter, "Helvetica Neue", Arial, sans-serif;;
+    font-weight: bold;
+ }
+
+ .bodyhead{
+   
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
+    font-weight: bold;
+    font-size: 56px;
+ }
+
+ .bodyparagrap{
+   font-size: 21px;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
+   
+ }
+
+ .careerbody{
+    background-color: #F3FAFF;
+ }
+
+ .lifetitle{
+   color: #326CF4;
+   font-family:Inter, "Helvetica Neue", Arial, sans-serif;;
+   font-size: 18px;
+   font-weight: bolder;
+ }
+
+ .col1{
+      
+      font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
+      font-size: 16px;
+
+    
+ }
+
+li{
+   font-size: 16px;
+   font-weight: bold;
+}
+.value{
+   font-weight: bold;
+}
+
+.boldfont{
+   font-size: 16px;
+   font-weight: bold;
+
+}
+
+.bringtotop{
+   color: #326CF4;
+   font-family:Inter, "Helvetica Neue", Arial, sans-serif;;
+   font-size: 14px;
+   
+ }
+
+ .advheader{
+   font-family:Inter, "Helvetica Neue", Arial, sans-serif;;
+   font-size: 26px;
+   color: #326CF4;
+   font-weight: bold;
+ }
+
+ .advbody{
+   color: black;
+   font-size: 26px;
+   font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
+
+   font-weight: bold;
+ }
+
+ .advsection{
+   font-size: 18px;
+   font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
+   font-weight: lighter;
+ }
+
+ .vertical-line{
+   border-left: 4px solid  #326CF4;
+   height: 100px;
+
+   
+ }
+
+ .advantage-paragraph{
+   font-size: 18px;
+   font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
+   font-weight: bolder;
+   
+ }
+
