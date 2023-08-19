@@ -1,18 +1,15 @@
-import { button } from 'bootstrap'
+
 import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Footer.css'
 import logo from '../../../assets/logo.png';
 
-export const Footer = ({ children }) => {
+export const Footer = () => {
   return (
     <div>
 
       <Container className='footer' fluid>
-
-
-
         <div className='col py-5'>
           <div><img src={logo} alt="Logo" width="150" height="60" /></div>
           <div><i class="fa-solid fa-phone-flip" style={{ color: ' #3f85fd' }}></i>  02 8005 7003 </div>
@@ -20,8 +17,6 @@ export const Footer = ({ children }) => {
           <Link to="/request-information">
             <div className=''> <Button className='fa-14px' type='submit'> Get Started <i class="fa-solid fa-check"></i> </Button></div>
           </Link>
-
-
         </div>
 
 
@@ -32,7 +27,6 @@ export const Footer = ({ children }) => {
             <div className='footertext'>Disclaimer</div> {" "}
             <div className='footertext'>Terms of Condition</div>{" "}
             <div className='footertext'> Privacy Policy</div> {" "}
-
           </Col>
 
 
@@ -44,22 +38,12 @@ export const Footer = ({ children }) => {
             <div className='email'>E</div>
             <div className='insta'>I</div>
             <div className='tww'>T</div>
-
-
           </Col>
-
-
         </Row>
 
         <hr />
-
         <div className='footertext mt-4 p-5'>© 2010-2023 BizVision. All Rights Reserved </div>
-
-
-
-
       </Container>
-
     </div>
 
 

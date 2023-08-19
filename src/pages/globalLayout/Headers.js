@@ -27,8 +27,8 @@ const Headers = () => {
     }, []);
     return (
 
-        <header style={{ position: 'fixed', top: 0, width: '100%', zIndex: 100 }} >
-            <Navbar expand="md" className={isScrolled ? 'scrolled' : 'navbar mb-3'}>
+        <header style={{ position: 'fixed', top: 0, width: '100%', zIndex: 100, marginBottom: 0 }} >
+            <Navbar expand="lg" className={isScrolled ? 'scrolled' : 'navbar mb-3'}>
                 <Container fluid>
                     <Col>
                         <Navbar.Brand href="/">
@@ -106,13 +106,13 @@ const Headers = () => {
                                             <NavDropdown.Item>
                                                 <Link to="/howitworks/hiringanadvisor/concealed" className='nav-link'>
                                                     <h5>Hire an M&A Advisor</h5>
-                                                    </Link>
-                                                
+                                                </Link>
+
 
                                             </NavDropdown.Item>
                                             <NavDropdown.Item  >
-                                            <Link to="/howitworks/sellingandbuyingforowners" className='nav-link'> <h5>Exit Your Business</h5> </Link>
-                                               
+                                                <Link to="/howitworks/sellingandbuyingforowners" className='nav-link'> <h5>Exit Your Business</h5> </Link>
+
 
                                             </NavDropdown.Item>
 
@@ -134,7 +134,7 @@ const Headers = () => {
                                             </NavDropdown.Item>
                                         </div>
                                     </NavDropdown>
-                                    <Nav.Link href="#home" id="nav-text">Closed Deals</Nav.Link>
+                                    <Nav.Link href="/closedDeals" id="nav-text">Closed Deals</Nav.Link>
 
                                     <NavDropdown title="About Us" id="basic-nav-dropdown">
                                         <NavDropdown.Item className="align-center text-center" href="#action/3.1">
@@ -164,7 +164,7 @@ const Headers = () => {
                                     </Nav.Link>
                                     <Button variant='light' className='signInButton m-1'>Sign in </Button>
                                     <Link to="/request-information"> <Button variant="outline-light" className='signInButton m-1'> Get Started</Button></Link>
-                                    
+
                                 </Nav>
 
                             </Nav>
