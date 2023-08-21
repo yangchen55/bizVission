@@ -14,7 +14,8 @@ import { Link } from 'react-router-dom';
 export const Cardpage = () => {
   return (
     <Row>
-      <Col className='py-3'>   <Card style={{ width: '15rem' }}>
+      <Col className='py-3'>   
+      <Card  style={{ width: '15rem' }}>
         <Card.Img variant="top" src={img2} />
         <Card.Body>
           <Card.Title className='teamname text-center'>Peter Lehrman</Card.Title>

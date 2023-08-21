@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Offcanvas from 'react-bootstrap/Offcanvas';
 import Col from 'react-bootstrap/Col';
 import './header.css'
-import logo from '../../assets/logo.png';
+import logo from '../../assets/logo2.png';
 import { Link } from 'react-router-dom';
 
 const Headers = () => {
@@ -148,7 +148,8 @@ const Headers = () => {
                                     <Nav.Link href="#link" id="nav-text">
                                         <a href="tel:1.800.860.4519"><i class="fa-solid fa-phone-flip"></i> </a> <span> 02 8005 7003</span>
                                     </Nav.Link>
-                                    <Button variant='light' className='signInButton m-1'>Sign in </Button>
+                                    <Link to="/sign-in">  <Button variant='light' className='signInButton m-1'>Sign in </Button></Link>
+                                  
                                     <Link to="/request-information"> <Button variant="outline-light" className='signInButton m-1'> Get Started</Button></Link>
                                     
                                 </Nav>

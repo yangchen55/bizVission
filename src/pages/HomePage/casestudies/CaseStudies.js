@@ -12,10 +12,6 @@ export const CaseStudies = () => {
   const[ showTwo, setShowTwo ]= useState(false)
   const [showThree, setShowThree ]= useState(false)
 
-
-   
-   
-
   return (
 
     <div className='case-studies-hero'>
@@ -51,24 +47,37 @@ export const CaseStudies = () => {
             {
               showOne && (
                 <Row className='mt-3'>
-                <p className='case-sec-header py-3'>Levine Leichtman Portfolio Company Trinity Consultants Expands Into Adjacent Sectors</p> 
+                <h1 className='case-sec-header p-2'>
+                Seamless Pharmacy Acquisition: Leveraging Expertise in Australia's Business Landscape</h1> 
                <Col>
               
                <p> 
                {/* <p className='case-sec-header py-3'>Levine Leichtman Portfolio Company Trinity Consultants Expands Into Adjacent Sectors</p> */}
                <p> <span className='case-first-paragraph'> TRANSACTION TYPE</span><br/>Acquisition </p>
-               <p> <span className='case-first-paragraph'>INDUSTRY</span> <br/> Business Services</p>
-               <p><span className='case-first-paragraph'>LOCATION</span> <br/> San Ramon, CA</p>
+               <p> <span className='case-first-paragraph'>INDUSTRY</span> <br/> IT Services</p>
+               <p><span className='case-first-paragraph'>LOCATION</span> <br/> QLD </p>
                
                </p>
                </Col>
                <Col>
                <p className='case-second-paragraph'>
-               Trinity Consultants, an air quality consulting firm based in Dallas, has made more than 20 acquisitions in the past 12 years. The majority of these deals were in the air quality space, a sector Trinity has been deeply involved in since its founding in 1974. <br/><br/>
-              In 2012,
-               Trinity entered the toxicology space when it acquired SafeBridge Consultants, a consulting firm that serves clients in the life sciences sector. “We aren’t known as buyers in the life sciences space. We haven’t had decades to canvass the landscape of logical extensions in the sector.” <br/><br/>
+               After relocating to Australia on a Business Innovation and Investment visa, our client, 
+               an experienced retail pharmacist, sought to navigate the complex landscape of investment opportunities 
+               in a foreign market. Their expertise, although extensive, was initially directed towards a diverse range of sectors including pubs and beauty salons. 
+               However, their core competency remained deeply rooted in the pharmaceutical domain. <br/><br/>
+
+               Upon successfully obtaining the necessary accreditations to operate a pharmacy in Australia, 
+               a critical step that underscored their dedication, our team at BizVision undertook a comprehensive market analysis.
+                Our objective was to identify a venture that not only aligned with their professional background but also offered 
+                strategic advantages. <br/><br/>
    
-              Trinity turned to Axial to tap into deals in new industries and from sources they wouldn’t otherwise have known about. “Axial brings deals to us and helps us think about the realm of possibilities that could make sense.” One of these deals was ADVENT Engineering, a life sciences engineering consultancy with resources across the U.S., Canada, and Singapore. ADVENT was represented by CEO Ally, a Pittsburgh, PA-based advisory firm. “Without Axial, there’s no reason the company or their banker would have heard of us, and no reason we would have heard of them.”
+                After an exhaustive search, we identified an investment opportunity in a well-established pharmacy business located 
+                just two blocks from our client's residence. This proximity offered operational efficiencies and simplified logistics
+                 for the client, which is often a crucial factor in the success of a new venture. <br/><br/>
+
+                 The transition was facilitated with meticulous attention to detail, ensuring a seamless handover from the retiring vendor. This acquisition represented a significant milestone: for the vendor, it marked a
+                  satisfactory culmination of their professional journey; for our client, it presented a robust platform for growth in their chosen domain; and for BizVision, it underscored our commitment to providing tailored 
+                  solutions that cater to the unique requirements of each client. The entire process epitomized the essence of strategic alignment and professional execution.
                </p>
                </Col>
                </Row> 
@@ -78,20 +87,33 @@ export const CaseStudies = () => {
 
             {showTwo && (
               <Row className='mt-3'>
-              <p className='case-sec-header '>Family Office of Ex-XEROX CEO Makes Inaugural Investment in a Colorado Brewery</p>
+              <h1 className='case-sec-header '>Mastering Complex Transactions: BizVision's Strategic Approach to Youth Entrepreneurship in the Drone Repair Sector</h1>
              <Col>
              <p> 
-             <p> <span className='case-first-paragraph'> TRANSACTION TYPE</span><br/>Minority Equity Investment </p>
-             <p> <span className='case-first-paragraph'>INDUSTRY</span> <br/> Food & Beverage</p>
-             <p><span className='case-first-paragraph'>LOCATION</span> <br/> Denver, CO</p>
+             <p> <span className='case-first-paragraph'> TRANSACTION TYPE</span><br/>Share Purchase agreement </p>
+             <p> <span className='case-first-paragraph'>INDUSTRY</span> <br/> Robotics start-up</p>
+             <p><span className='case-first-paragraph'>LOCATION</span> <br/> NSW</p>
              
              </p>
              </Col>
              <Col>
-             <p className='case-second-paragraph'>When Ann Mulcahy exited her post as the CEO of Xerox, she created a family office and joined Axial looking to partner with lower middle market entrepreneurs. <br/><br/>
-             “For us, being a new family office, it was about at-bats — how many deals could we see to get a sense of what the marketplace is doing. Joining Axial made sense because we knew the network would help us figure out what kind of opportunities might be available in the lower middle market. Our team comes from more enterprise backgrounds across the board and Axial became our guide to finding partners we could work with. We initially narrowed our search on Axial to technology with a focus on business services and light manufacturing with a focus on consumer goods and food and beverage.” <br/><br/>
+             <p className='case-second-paragraph'>
+             Amid the technological landscape, BizVision was presented with a distinctive situation: 
+             two young entrepreneurs, still below the legal age, had established a specialized drone repair business. 
+             Their innovation was evident, but their age posed certain procedural complexities. <br/><br/>
+
+             Given the legal prerequisites associated with engaging minors in business transactions,
+              BizVision meticulously navigated through the process, collaborating closely with the entrepreneurs'
+               legal guardians. Every decision was grounded in rigorous due diligence and adherence to legal frameworks. 
+               BizVision's expert team delved into a comprehensive valuation of the venture, drawing from financial metrics,
+               market dynamics, and the emerging potential of the drone repair sector. 
+             This objective evaluation revealed the business's inherent potential.<br/><br/>
  
-             Reg McGaugh, a banker from Auctus Group, sent me a deal for a queso fresco factory in the Midwest. I didn’t think we were the best fit, but we got on the phone anyway and he said he was working with a client in Denver, a craft brewing company in the super early stages, that he thought might be a good fit for us. That ended up being Renegade, a deal we closed on several months later. How fortunate that we took the time because it provided Silver Fox with not only our first investment, but an opportunity that I don’t think we would have seen otherwise.”
+             Subsequently, an investor, acquainted with BizVision's expertise, showed interest in capitalizing on this venture's 
+             prospects. With BizVision's guidance, a vision was mapped out to strategically position the business for broader 
+             market reach. Through this engagement, BizVision once again demonstrated its adeptness in managing intricate transactions,
+              ensuring accurate business evaluations, and identifying promising business opportunities. The transaction underscored
+               BizVision's steadfast commitment to professionalism and excellence.
              </p>
              </Col>
              </Row> 
@@ -102,22 +124,39 @@ export const CaseStudies = () => {
 
            {showThree && (
              <Row className='mt-3'>
-             <p className='case-sec-header '>Investment Bank Progress Partners Finds a Lender and New Client</p>
+             <h1 className='case-sec-header '>
+             Strategic Expansion: BizVision's Guidance in Acquiring a Pivotal Bottling Facility in Australia</h1>
             <Col>
-            <p> 
+            {/* <p> 
             <p> <span className='case-first-paragraph'> TRANSACTION TYPE</span><br/>Debt Financing</p>
             <p> <span className='case-first-paragraph'>INDUSTRY</span> <br/> Digital Media</p>
             <p><span className='case-first-paragraph'>LOCATION</span> <br/> New York, NY</p>
             
-            </p>
+            </p> */}
             </Col>
             <Col>
             <p className='case-second-paragraph'>
-            Technology & Media focused investment bank Progress Partners has been an Axial member since 2011. Founder Nick MacShane says that Axial has “supercharged” the firm’s buyer network and also helped bring in CEO clients. In 2016, Progress Partners connected with fellow Axial member Gibraltar Business Capital to help secure a $6 million ABL line of financing for its client, media technology company CPXi. <br/><br/>
+            Navigating the complexities of acquiring and expanding a bottling facility in Australia, 
+            our client sought to leverage their existing relationships with prominent corporate entities 
+            that boasted household brands. Recognizing the complexities of such an endeavor, 
+            they turned to BizVision for specialized guidance in this acquisition journey.<br/><br/>
            
-            “We’ve essentially supercharged our buyer network through Axial. We’ve been able to engage a broader universe of buyers and financial partners for particular deals, namely private equity funds and strategic companies that may not have been in our network previously. <br/><br/>
+            Commencing the engagement, BizVision's team initiated its Business Valuations services.
+            It was imperative to ascertain the true value of prospective acquisitions in the bottling industry,
+            ensuring a judicious investment decision. Harnessing our extensive expertise in finding off-market listings,
+            we embarked on a rigorous selection process to identify facilities that perfectly
+            aligned with our client's specifications and overarching business strategy. <br/><br/>
 
-            Axial events have also helped bring in clients to the firm. For example, one of our associates attended last year’s Axial Concord in New York City, and met an entrepreneur there who owns a marketing technology company in St. Louis and was looking to sell. He hired us, and now we’re on third base trying to get him a closed transaction.
+            A particular facility emerged as a potential match, given its strategic location, optimal capacity, 
+            and robust infrastructure. However, certain challenges pertaining to its existing lease terms required
+            meticulous attention. With acumen and foresight, BizVision's team engaged in rigorous lease negotiations, 
+            aiming to achieve terms that would not only be financially viable but would also serve our client's 
+            long-term operational objectives. Concurrently, we facilitated the renegotiation of employee contracts,
+            ensuring seamless transition and retention, while aligning with the strategic direction set by the new management.<br/><br/>
+
+            This endeavor underscores BizVision's commitment to offering a comprehensive suite of services. From accurate business valuations, 
+            adept business searches, to strategic lease negotiations, our objective remains consistent: to position our clients for unparalleled success in their respective markets.
+
             </p>
             </Col>
             </Row> 

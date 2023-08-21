@@ -33,7 +33,7 @@ label{
     font-size: 16px;
     line-height: 20px; */
 
-    color: blue;
+    /* color: blue; */
     transition-property:color;
     transition-duration: 0.3s;  
 

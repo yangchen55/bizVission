@@ -3,6 +3,8 @@ import { Button, Col, FloatingLabel, Form, Row } from 'react-bootstrap'
 import GlobalLayout from '../globalLayout/GlobalLayout'
 import './joinbizvission.css'
 import { CustomeForm } from './CustomeForm'
+import { postNewJoin } from '../../helps/axios'
+import { toast } from 'react-toastify'
 
 
 export const JoinBizvision = () => {
@@ -18,8 +20,12 @@ export const JoinBizvision = () => {
     })
     }
 
-    const handleonsubmit = (e)=>{
+    const handleonsubmit =async (e)=>{
         e.preventDefault()
+        const {status, message } = await postNewJoin(form)
+      //  toast [status] (message)
+
+
         console.log(form)
     }
 
@@ -54,11 +60,13 @@ export const JoinBizvision = () => {
             placeholder: "Email",
             required: true,
           },
+
            {
           label: "Phone Number",
           type: "number",
           name: "phonenumber",
           placeholder: "Phone Number",
+          formatter:"+61 (###)-###-####",
           required: true,
           },
 
@@ -68,20 +76,20 @@ export const JoinBizvision = () => {
             name: "companytype",
             placeholder: "Small Business",
             },
+            
             {
             label: "How Did You Head About Us?",
             type: "text",
             name: "message",
             placeholder: "Small Business"
                
-                },
+           },
     ]
   return (
     <div>
         <GlobalLayout>
             <div className='container'>
             <Row>
-           
                 <Col >
                 <p className='joinpagefont col-p p-2'>
                 <div className='joinpagefont div1'>Join BizVision</div>
@@ -91,38 +99,20 @@ export const JoinBizvision = () => {
 
 
                  <Form className='mt-2' onSubmit={handleonsubmit}>
+
                     {inputes.map((item, i)=>(
                         <CustomeForm key={i}{...item} onChange={handleonchange} 
                         />
                     ))}
 
-{/* 
-       <FloatingLabel 
-        controlId="floatingInput"
-        label="Email address"
-        className="mb-3 ddd"
-      >
-         <Form.Select >
-        
-           <option value="1">One</option>
-           <option value="2">Two</option>
-           <option value="3">Three</option>
-         </Form.Select>
-       
-      </FloatingLabel> */}
 
       <div className='d-grid'>
         <Button type='submit'>Completed</Button></div>
 
-
-
-
-
                  </Form>
                 </p>
-
-               
                 </Col>
+                
                 <Col md></Col>
             </Row>
 

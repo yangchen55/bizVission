@@ -11,7 +11,7 @@ export const CustomeForm = ({label, ...rest}) => {
         label={label}
         className="mb-3"
       >
-        <Form.Control {...rest} className='ddd' />
+        <Form.Control {...rest} />
       </FloatingLabel>
     </div>
   )
