@@ -1,6 +1,11 @@
 .main {
   min-height: 30vh;
-  background: #15365d;
+  background: #3a427e;
+  position: relative;
+}
+.footer {
+  min-height: 80vh;
+  background: #d4d6d8;
 }
 
 .footerpragraph {
@@ -10,27 +15,20 @@
   align-content: center;
   height: auto;
   min-width: var(--width);
-
   color: #ffffff;
   font-size: 36px;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif Arial, Helvetica,
-    sans-serif;
-}
-.footer {
-  background-color: #7b9cbb23;
-  min-height: 80vh;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
 }
 
 .col {
   display: flex;
-  justify-content: 
-  space-around;
+  justify-content: space-around;
 }
 
 .col2 {
   color: #242632;
   font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
 }
 
 /*   
@@ -87,7 +85,7 @@
 .footertext {
   color: #3a427e;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
 }
 
 .tww {

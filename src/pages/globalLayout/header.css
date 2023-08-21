@@ -1,10 +1,11 @@
 .navbar {
   background-color: #254c5a;
-  margin: 0;
+  margin: 0 !important;
 }
 .scrolled {
-  background-color: #05131990 !important;
+  background-color: #051319fb !important;
   color: black !important;
+  margin-bottom: 0 !important;
 }
 
 #basic-nav-dropdown {

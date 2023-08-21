@@ -1,0 +1,31 @@
+#top {
+  scroll-behavior: smooth;
+}
+.BringToTop {
+  text-decoration: none;
+}
+
+.BringToTop:hover {
+  text-decoration: underline;
+}
+
+.main {
+  min-height: 30vh;
+  background: #15365d;
+  display: grid;
+  place-items: center;
+}
+
+.requestButton {
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.accordion {
+  background-color: #cfe2ff !important;
+}
+.quote {
+  border-left: #15365d 5px solid;
+  border-radius: 10px;
+  box-shadow: inset;
+}

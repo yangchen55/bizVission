@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Pagination from 'react-bootstrap/Pagination';
 import{Col, Row} from 'react-bootstrap'
-import './CaseStudies.css'
+import '../casestudies/CaseStudies.css'
 
 
 

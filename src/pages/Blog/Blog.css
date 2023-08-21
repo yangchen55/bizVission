@@ -1,0 +1,52 @@
+.BlogContainer {
+  box-shadow: 0 0 10px 2px rgba(1, 1, 2, 0.348);
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.585);
+  border: solid rgba(231, 222, 222, 0.772) 1px;
+}
+
+.BlogForm {
+  margin: 50px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 10px 2px rgba(1, 1, 2, 0.348);
+  border-radius: 5px;
+  backdrop-filter: blur(10px); /* Add the backdrop filter for blur effect */
+  background-color: rgba(142, 147, 148, 0.62);
+  border: solid rgba(124, 121, 121, 0.438) 1px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+/* Style for the button */
+.card .btn-primary {
+  display: none;
+}
+.card:hover .btn-primary {
+  display: block;
+}
+.card .blog-footer {
+  display: block; /* Initially hide the blog-footer */
+}
+
+.card:hover .blog-footer {
+  display: none; /* Show the blog-footer on card hover */
+}
+
+.img-container {
+  position: relative;
+  overflow: hidden;
+}
+.card:hover .img-container img {
+  filter: blur(10px); /* Add a blur effect */
+}
