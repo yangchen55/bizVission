@@ -5,6 +5,7 @@ import ClosedDeal from './closedDeal/ClosedDeal'
 import Hero from './HeroContent/Hero'
 import Middle from './middleMarket/Middle'
 import MiddlePagination from './MiddlePagination/MiddlePagination'
+import { CaseStudies } from './casestudies/CaseStudies'
 
 const Home = ({ children }) => {
     return (
@@ -15,6 +16,7 @@ const Home = ({ children }) => {
                 <Middle />
                 <ClosedDeal />
                 <Pursue />
+                <CaseStudies/>
             </GlobalLayout>
 
 

@@ -1,9 +1,9 @@
 // ParticleBackground.js
 import React from 'react';
 import { useCallback } from 'react';
-
 import { loadSlim } from 'tsparticles-slim';
 import './background.css';
+import Particles from 'react-tsparticles';
 
 const ParticleBackground = () => {
     const particlesInit = useCallback(async (engine) => {
