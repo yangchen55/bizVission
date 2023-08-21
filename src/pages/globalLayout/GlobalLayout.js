@@ -11,9 +11,7 @@ const GlobalLayout = ({ children }) => {
             <main style={{ marginTop: '100px' }} >
                 {children}
             </main>
-            {/* <footer>
-                i am footer
-            </footer> */}
+            
             <Footer />
         </>
     )

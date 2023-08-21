@@ -3,28 +3,25 @@ import React from 'react'
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './Footer.css'
-import logo from '../../../assets/logo.png';
+import logo2 from '../../../assets/logo2.png';
 
 export const Footer = ({ children }) => {
   return (
     <div>
-
-      <Container className='footer' fluid>
-
-
-
-        <div className='col py-5'>
-          <div><img src={logo} alt="Logo" width="150" height="60" /></div>
-          <div><i class="fa-solid fa-phone-flip" style={{ color: ' #3f85fd' }}></i>  02 8005 7003 </div>
-          <div className='gap-3'> <Button className='text-center' variant='outline-primary' type='submit'> Sign in </Button></div>
-          <Link to="/request-information">
-            <div className=''> <Button className='fa-14px' type='submit'> Get Started <i class="fa-solid fa-check"></i> </Button></div>
-          </Link>
-
-
-        </div>
-
-
+ <Container fluid>
+       
+            <div className='col py-5'>
+                  <div><img src={logo2} alt="Logo" width="180" height="70" /></div>
+                    <div><i class="fa-solid fa-phone-flip" style={{color:' #3f85fd'}}></i>  02 8005 7003 </div>
+                    <div className='gap-3'> <Button className='text-center' variant='outline-primary' type='submit'> Sign in </Button></div>
+                    <Link to="/request-information">
+                    <div className=''> <Button className='fa-14px' type='submit'> Get Started <i class="fa-solid fa-check"></i> </Button></div>
+                    </Link>
+               
+            
+            </div>
+           
+       
 
         <Row className='px-5'>
           <Col className='nav-link' md="3"><div className='col2'>BizVision</div>

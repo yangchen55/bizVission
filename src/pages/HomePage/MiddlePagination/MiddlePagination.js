@@ -1,8 +1,9 @@
 import React, { useState } from 'react';
 import './middlePagination.css'
-import { Tab, Tabs, Box, TabList, TabPanel, TabContext } from 'react-tabs';
 import ReasonsToJoin from '../../platform/ReasonsToJoin/ReasonsToJoin';
 import Acquiring from '../../platform/Acquiring/Acquiring';
+
+import { Tabs, TabList, Tab, TabPanel} from 'react-tabs'
 
 const MiddlePagination = () => {
 
