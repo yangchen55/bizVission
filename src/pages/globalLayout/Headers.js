@@ -27,8 +27,8 @@ const Headers = () => {
     }, []);
     return (
 
-        <header style={{ position: 'fixed', top: 0, width: '100%', zIndex: 100 }} >
-            <Navbar expand="md" className={isScrolled ? 'scrolled' : 'navbar mb-3'}>
+        <header style={{ position: 'fixed', top: 0, width: '100%', zIndex: 100, marginBottom: 0 }} >
+            <Navbar expand="lg" className={isScrolled ? 'scrolled' : 'navbar mb-3'}>
                 <Container fluid>
                     <Col>
                         <Navbar.Brand href="/">
@@ -59,29 +59,43 @@ const Headers = () => {
                                     <NavDropdown title="The Platform" id="basic-nav-dropdown">
                                         <div className='d-flex flex-row'>
                                             <Col xs={6}>
-                                                <NavDropdown.Item href="#action/3.1">
+                                                <NavDropdown.Item >
+                                                    <Link to="/selling-raising" className='nav-link'>
+                                                        <h5> Selling and Raising</h5>
+                                                        <p>sell side MA and capital raising</p>
+                                                    </Link>
 
-                                                    <h5> Selling and Raising</h5>
-                                                    <p>sell side MA and capital raising</p>
+
 
                                                 </NavDropdown.Item>
                                             </Col>
                                             <Col xs={6}>
-                                                <NavDropdown.Item href="#action/3.2">
-                                                    <h5> Acquiring and Investing</h5>
+
+
+                                                <NavDropdown.Item >
+                                                    <Link to="/buying-investing" className='nav-link'>
+                                                        <h5> Acquiring and Investing</h5>
+                                                        <p>sell side MA and capital raising</p>
+                                                    </Link>
                                                 </NavDropdown.Item>
                                             </Col>
                                         </div>
                                         <NavDropdown.Divider />
                                         <div className='d-flex flex-row '>
                                             <Col xs={6}>
-                                                <NavDropdown.Item href="#action/3.3">
-                                                    <h5>Middle Market Review</h5></NavDropdown.Item>
+                                                <NavDropdown.Item >
+                                                    <Link to="/forum" className='nav-link'>
+                                                        <h5> Middle Market Review</h5>
+                                                        <p>sell side MA and capital raising</p>
+                                                    </Link>
+                                                </NavDropdown.Item>
                                             </Col>
                                             <Col xs={6}>
-                                                <NavDropdown.Item href="#action/3.4">
-                                                    <h5> Tools and Resources
-                                                    </h5>
+                                                <NavDropdown.Item >
+                                                    <Link to="/forum/resources" className='nav-link'>
+                                                        <h5>Tool and Resources</h5>
+
+                                                    </Link>
                                                 </NavDropdown.Item>
                                             </Col>
                                         </div>
@@ -92,13 +106,13 @@ const Headers = () => {
                                             <NavDropdown.Item>
                                                 <Link to="/howitworks/hiringanadvisor/concealed" className='nav-link'>
                                                     <h5>Hire an M&A Advisor</h5>
-                                                    </Link>
-                                                
+                                                </Link>
+
 
                                             </NavDropdown.Item>
                                             <NavDropdown.Item  >
-                                            <Link to="/howitworks/sellingandbuyingforowners" className='nav-link'> <h5>Exit Your Business</h5> </Link>
-                                               
+                                                <Link to="/howitworks/sellingandbuyingforowners" className='nav-link'> <h5>Exit Your Business</h5> </Link>
+
 
                                             </NavDropdown.Item>
 
@@ -120,7 +134,7 @@ const Headers = () => {
                                             </NavDropdown.Item>
                                         </div>
                                     </NavDropdown>
-                                    <Nav.Link href="#home" id="nav-text">Closed Deals</Nav.Link>
+                                    <Nav.Link href="/closedDeals" id="nav-text">Closed Deals</Nav.Link>
 
                                     <NavDropdown title="About Us" id="basic-nav-dropdown">
                                         <NavDropdown.Item className="align-center text-center" href="#action/3.1">
@@ -150,7 +164,7 @@ const Headers = () => {
                                     </Nav.Link>
                                     <Button variant='light' className='signInButton m-1'>Sign in </Button>
                                     <Link to="/request-information"> <Button variant="outline-light" className='signInButton m-1'> Get Started</Button></Link>
-                                    
+
                                 </Nav>
 
                             </Nav>

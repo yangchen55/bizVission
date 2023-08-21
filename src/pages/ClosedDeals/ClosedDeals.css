@@ -1,0 +1,36 @@
+.closedWrapper {
+  margin: 0;
+  background-color: #f3faff;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  text-align: center;
+  padding: 20px;
+}
+.closedHeader {
+  margin: 15px;
+  box-sizing: border-box;
+  display: block;
+  font-weight: 800;
+  font-size: 60px;
+  color: rgba(0, 0, 0, 0.665);
+}
+.closedPara {
+  font-size: 30px;
+  font-weight: 200;
+}
+
+@media screen and (max-width: 1023px) {
+  .closedHeader {
+    margin: 15px;
+    box-sizing: border-box;
+    display: block;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .closedPara {
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+  }
+}
