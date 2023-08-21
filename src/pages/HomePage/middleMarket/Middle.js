@@ -5,7 +5,7 @@ import "./middle.css";
 
 const Middle = () => {
     return (
-        <div className='glide'>
+        <div className='w-full text-center glide bg-white'>
             <h4 className='d-flex justify-content-center mt-3'>Trusted All Across The Lower Middle Market</h4>
             <div className='train-container'>
                 <div className="train">

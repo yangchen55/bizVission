@@ -18,10 +18,12 @@ import { Dashboard } from './pages/admindashboard/Dashboard';
 import { NewAccVerify } from './pages/NewAccVerify/NewAccVerify';
 import { ResetPassword } from './pages/resetpassword/ResetPassword';
 
+import Acquiring from './pages/platform/Acquiring/Acquiring';
+import Selling from './pages/platform/selling&Raising/Selling';
 function App() {
   return (
     <div>
-       <BrowserRouter>
+      <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/whoweare' element={<AboutUs />} />
@@ -39,12 +41,14 @@ function App() {
 
 
 
+          <Route path='selling-raising' element={<Selling />} />
+          <Route path='/buying-investing' element={<Acquiring />} />
         </Routes>
       </BrowserRouter>
       <ToastContainer/>
     
 
-     
+
 
 
 
