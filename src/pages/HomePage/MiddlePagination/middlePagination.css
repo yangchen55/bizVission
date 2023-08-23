@@ -1,6 +1,6 @@
 .tab-main {
   margin-top: 10px;
-  background-color: lightblue;
+  background-color:  #F3FAFF;
   height: "850px";
 }
 .tab-list-container {
@@ -21,9 +21,37 @@
 }
 
 .tab-button:hover {
-  background-color: #f3faff;
+  background-color:  #F3FAFF;
 }
 
 .tab-button:focus {
   outline: none;
+}
+
+
+.col1{
+  font-family: Inter, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300px;
+  
+}
+.bold{
+  font-weight: bold;
+}
+
+
+
+
+ul {
+  list-style-type: circle; /* Change the bullet style */
+  margin-left: 20px; /* Add indentation */
+}
+
+ol {
+  list-style-type: decimal; /* Use numbers for ordered list */
+  padding-left: 20px; /* Add padding */
+}
+
+li {
+  margin-bottom: 5px; /* Add space between list items */
 }

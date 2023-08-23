@@ -111,25 +111,25 @@ const Headers = () => {
 
                                             </NavDropdown.Item>
                                             <NavDropdown.Item  >
-                                            <Link to="/howitworks/sellingandbuyingforowners" className='nav-link'> <h5>Exit Your Business</h5> </Link>
-                                               
-
+                                            <Link to="/howitworks/sellingandbuyingforowners" className='nav-link'> 
+                                            <h5>Exit Your Business</h5>
+                                             </Link>
                                             </NavDropdown.Item>
 
                                         </div>
                                         <NavDropdown.Divider />
                                         <div className='d-flex flex-row'>
-                                            <NavDropdown.Item href="#action/3.3">
+                                            {/* <NavDropdown.Item href="#action/3.3">
                                                 <h5>
                                                     Corporate Development
                                                 </h5>
 
 
-                                            </NavDropdown.Item>
-                                            <NavDropdown.Item href="#action/3.4">
-                                                <h5>
-                                                    Resources
-                                                </h5>
+                                            </NavDropdown.Item> */}
+                                            <NavDropdown.Item >
+                                               <Link className='nav-link' to="/forum/">
+                                                <h5>Resources</h5>
+                                               </Link>
 
                                             </NavDropdown.Item>
                                         </div>
@@ -137,7 +137,7 @@ const Headers = () => {
                                     <Nav.Link href="#home" id="nav-text">Closed Deals</Nav.Link>
 
                                     <NavDropdown title="About Us" id="basic-nav-dropdown">
-                                        <NavDropdown.Item className="align-center text-center" href="#action/3.1">
+                                        <NavDropdown.Item className="align-center text-center">
                                             <h5>What is Axial</h5> </NavDropdown.Item>
                                         <NavDropdown.Divider />
                                         <div className='d-flex flex-row'>

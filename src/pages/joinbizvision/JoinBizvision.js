@@ -26,7 +26,7 @@ export const JoinBizvision = () => {
       //  toast [status] (message)
 
 
-        console.log(form)
+       
     }
 
 

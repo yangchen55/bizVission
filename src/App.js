@@ -5,8 +5,6 @@ import { AboutUs } from './aboutus/AboutUs';
 import { CareersPage } from './aboutus/CareersPage'
 import './App.css'
 
-
-
 import Home from './pages/HomePage/Home';
 import { HireAdvisor } from './pages/forbusinessBuyers/hireadvisor/HireAdvisor';
 import { ExitBusiness } from './pages/forbusinessBuyers/exitbusiness/ExitBusiness';
@@ -20,6 +18,10 @@ import { ResetPassword } from './pages/resetpassword/ResetPassword';
 
 import Acquiring from './pages/platform/Acquiring/Acquiring';
 import Selling from './pages/platform/selling&Raising/Selling';
+import Blog from './pages/Blog/Blog';
+import AddNewBlog from './pages/Blog/AddNewBlog';
+import BlogCard from './pages/FontBlog/BlogCard';
+import FontBlog from './pages/FontBlog/FontBlog'
 function App() {
   return (
     <div>
@@ -43,6 +45,17 @@ function App() {
 
           <Route path='selling-raising' element={<Selling />} />
           <Route path='/buying-investing' element={<Acquiring />} />
+
+          {/* Blog  */}
+
+          <Route path='/blog' element={<Blog />} />
+          <Route path='/addBlog' element={<AddNewBlog />} />
+
+
+          <Route path="/forum/:tag" element={<FontBlog/>} />
+          <Route path="/forum/" element={<FontBlog />} />
+          <Route path='/forum_blog/:title' element={<BlogCard />}/>
+
         </Routes>
       </BrowserRouter>
       <ToastContainer/>

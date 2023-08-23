@@ -172,13 +172,13 @@ represent you in a transaction. Research by deal criteria, transaction experienc
       </div>
 
 
-      <div className='main div4 exitbusiness'>
-        <p>Get Started Today</p> <br/>
-        <Link to="/request-information"> 
-        <Button className='fw-700'>Request Membership <i class="fa-solid fa-check"></i></Button>
-        </Link>
-
-      </div>
+                <div className='main p-5'>
+                <p className='requestButton'>Get Started Today</p>
+                <Link to="/request-information">  <Button variant='primary' className='m-2 bold-text '>Request Membership <i class="fa-solid fa-arrow-right"></i></Button></Link>
+               
+            </div>
+      
+     
 
       <BussinessCase/>
 

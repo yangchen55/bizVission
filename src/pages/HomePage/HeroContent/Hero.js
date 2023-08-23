@@ -46,10 +46,8 @@ const Hero = () => {
 
                     <div className='d-flex justify-content-center'>
                         <p className='hero-content text-center'>
-                            Join 20,000+ lower middle market investors, M&A advisors,
-                            and owner-operators who trust Axial's platform for deal
-                            sourcing, deal marketing, and relationship-driven business
-                            development.
+                        Join 1,000+ small business buyers, investors, franchisors, and online business owner-operators who trust BizVision’s 
+                        platform for deal sourcing, deal marketing, and relationship-driven business development, and business acquisitions.
                         </p>
                     </div>
                     <div className='d-flex justify-content-center'>
