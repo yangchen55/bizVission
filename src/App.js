@@ -57,7 +57,7 @@ function App() {
           <Route path='/blog' element={
           <PrivateRouter><Blog/></PrivateRouter>} />
           <Route path='/addBlog' element={
-          <PrivateRouter><AddNewBlog /></PrivateRouter>} />
+          <AddNewBlog />} />
 
 
           <Route path="/forum/:tag" element={
