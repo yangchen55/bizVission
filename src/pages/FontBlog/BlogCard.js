@@ -24,6 +24,7 @@ const BlogCard = () => {
     const a = blogList.find(item => item.title === titleWithSpaces)
 
 
+
     function formatDate(dateString) {
         const options = { year: 'numeric', month: 'long', day: 'numeric' };
         const date = new Date(dateString);

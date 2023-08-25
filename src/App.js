@@ -5,6 +5,7 @@ import { AboutUs } from './aboutus/AboutUs';
 import { CareersPage } from './aboutus/CareersPage'
 import './App.css'
 
+
 import Home from './pages/HomePage/Home';
 import { HireAdvisor } from './pages/forbusinessBuyers/hireadvisor/HireAdvisor';
 import { ExitBusiness } from './pages/forbusinessBuyers/exitbusiness/ExitBusiness';
@@ -22,39 +23,49 @@ import Blog from './pages/Blog/Blog';
 import AddNewBlog from './pages/Blog/AddNewBlog';
 import BlogCard from './pages/FontBlog/BlogCard';
 import FontBlog from './pages/FontBlog/FontBlog'
+import { PrivateRouter } from './components/private-router/PrivateRouter';
 function App() {
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/whoweare' element={<AboutUs />} />
-          <Route path='/whoweare/careetAtBizvision' element={<CareersPage />} />
-          <Route path='//howitworks/hiringanadvisor/concealed' element={<HireAdvisor/>} />
-          <Route path='//howitworks/sellingandbuyingforowners/' element={<ExitBusiness/>} />
+          
           <Route path='/request-information' element={<JoinBizvision/>} />
           <Route path='/sign-in' element={<SignPage/>} />
           <Route path='/register-page' element={<RegisterPage/>} />
-          
           <Route path='/dashboard' element={<Dashboard/>} />
           <Route path='/verify' element={<NewAccVerify/>} />
           <Route path='/resetpassword' element={<ResetPassword/>} />
+          <Route path='/' element={<Home />} />
+          <Route path='/whoweare' element={<AboutUs />} />
 
 
+          {/* Private router */}
 
-
-          <Route path='selling-raising' element={<Selling />} />
-          <Route path='/buying-investing' element={<Acquiring />} />
+          <Route path='/whoweare/careetAtBizvision' element={ <CareersPage /> } />
+          <Route path='//howitworks/hiringanadvisor/concealed' element={
+           <HireAdvisor/>} />
+          <Route path='//howitworks/sellingandbuyingforowners/' element={
+          <ExitBusiness/>} />
+          <Route path='selling-raising' element={
+          <Selling />} />
+          <Route path='/buying-investing' element={
+          <Acquiring/>} />
 
           {/* Blog  */}
 
-          <Route path='/blog' element={<Blog />} />
-          <Route path='/addBlog' element={<AddNewBlog />} />
+          <Route path='/blog' element={
+          <PrivateRouter><Blog/></PrivateRouter>} />
+          <Route path='/addBlog' element={
+          <PrivateRouter><AddNewBlog /></PrivateRouter>} />
 
 
-          <Route path="/forum/:tag" element={<FontBlog/>} />
-          <Route path="/forum/" element={<FontBlog />} />
-          <Route path='/forum_blog/:title' element={<BlogCard />}/>
+          <Route path="/forum/:tag" element={
+          <FontBlog/>} />
+          <Route path="/forum/" element={
+          <FontBlog />} />
+          <Route path='/forum_blog/:title' element={
+          <BlogCard />}/>
 
         </Routes>
       </BrowserRouter>

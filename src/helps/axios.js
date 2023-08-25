@@ -1,5 +1,7 @@
 import axios from 'axios'
-const rootUrl = "http://localhost:8000/api/v1"
+const rootUrl = process.env.NODE_ENV === "production"
+? "/api/v1"
+: "http://localhost:8000/api/v1"
 const adminApi = rootUrl + "/admin";
 const joinApi = rootUrl + "/join";
 const blogAPI = rootUrl + "/blog"
