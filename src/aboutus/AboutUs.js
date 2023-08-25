@@ -1,25 +1,23 @@
 import React, { Children } from 'react'
 import './Aboutus.css'
-
 import img1 from '../assets/img1.png';
-import { Col, Row } from 'react-bootstrap'
-
-
+import { Col, Container, Row } from 'react-bootstrap'
 import { Cardpage } from './Cardpage'
 import GlobalLayout from '../pages/globalLayout/GlobalLayout';
 
-export const AboutUs = ({ Children }) => {
+export const AboutUs = () => {
   return (
     <GlobalLayout>
-      <div className='hero'>
-
-        <div className='aboutusbody'>
+      <div className='hero '>
+       
+        <div className='aboutusbody w-100'>
           <div className='text-center aboutusbodyfont'>About Us</div>
           <p className='text-center aboutusbodyfontbody'> 10+ Years of Experience in Lower Middle Market Deal marking. <br />
             Est 2016 | Made in SYD 💙
           </p>
 
         </div>
+      
 
         <Row className='p-5'>
 
@@ -57,12 +55,10 @@ export const AboutUs = ({ Children }) => {
 
 
 
+      
+
+      <main className='main'></main>
       </div>
-
-      <main className='main'>
-         
-
-            </main>
 
     </GlobalLayout>
 

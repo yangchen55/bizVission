@@ -12,7 +12,7 @@ export const Footer = ({ children }) => {
       <Container fluid>
         <Row>
           <Col xs="6" className='p-2'>
-          <img src={logo2} alt='logo' width="180" height="70"/></Col>
+          <img src={logo2} alt='logo' width="130" height="50"/></Col>
 
           <Col className='p-2'> <div> <i class="fa-solid fa-phone-flip" style={{color:' #3f85fd'}}></i>02 8005 7003</div></Col>
 

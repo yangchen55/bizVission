@@ -55,7 +55,7 @@ function App() {
           {/* Blog  */}
 
           <Route path='/blog' element={
-          <PrivateRouter><Blog/></PrivateRouter>} />
+          <Blog/>} />
           <Route path='/addBlog' element={
           <AddNewBlog />} />
 
