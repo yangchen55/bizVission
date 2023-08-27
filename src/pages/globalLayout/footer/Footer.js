@@ -11,14 +11,14 @@ export const Footer = ({ children }) => {
     <div className='footer mt-3 p-3'>
       <Container fluid>
         <Row>
-          <Col xs="6" className='p-2'>
-          <img src={logo2} alt='logo' width="130" height="50"/></Col>
+          <Col xs="auto" md={5} lg={8} className='p-2'>
+          <img className='logoimg' src={logo2} alt='logo' width="150" height="70"/></Col>
 
-          <Col className='p-2'> <div> <i class="fa-solid fa-phone-flip" style={{color:' #3f85fd'}}></i>02 8005 7003</div></Col>
+          <Col xs className='p-2 mt-1'> <div> <i class="fa-solid fa-phone-flip" style={{color:' #3f85fd'}}></i>02 8005 7003</div></Col>
 
-          <Col  className='p-2'> <Link to="/sign-in"> <div className='gap-3'> <Button className='text-center' variant='outline-primary' type='submit'> Sign in </Button></div></Link></Col>
+          <Col xs="auto"className='p-2'> <Link to="/sign-in"> <div className='gap-3'> <Button className='text-center' variant='outline-primary' type='submit'> Sign in </Button></div></Link></Col>
 
-          <Col  className='p-2'> <Link to="/request-information">
+          <Col xs="auto" className='p-2'> <Link to="/request-information">
                     <Button className='fa-14px' type='submit'> Get Started <i class="fa-solid fa-check"></i> </Button>
                     </Link></Col>
         </Row>

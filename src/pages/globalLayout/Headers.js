@@ -142,14 +142,16 @@ const Headers = () => {
                                         <NavDropdown.Divider />
                                         <div className='d-flex flex-row'>
                                             <NavDropdown.Item >
-                                                <Link to="/whoweare" className='nav-link'>
+                                                <Link to="/who-we-are" className='nav-link'>
                                                     <h5> Meet the Team </h5>
+                                                    <p> Est 2016 | Made in SYD 💙</p>
                                                 </Link>
 
                                             </NavDropdown.Item>
                                             <NavDropdown.Item >
-                                                <Link to="/whoweare/careetAtBizvision" className='nav-link'>
+                                                <Link to="/who-we-are/careet-at-bizvision" className='nav-link'>
                                                     <h5> Careers at BizVision</h5>
+                                                    <p>Pursue the Extraordinary</p>
                                                 </Link>
 
 

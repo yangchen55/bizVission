@@ -49,7 +49,7 @@ export const CaseStudies = () => {
                 <Row className='mt-3'>
                 <h1 className='case-sec-header p-2'>
                 Seamless Pharmacy Acquisition: Leveraging Expertise in Australia's Business Landscape</h1> 
-               <Col>
+               <Col xs="3">
               
                <p> 
                {/* <p className='case-sec-header py-3'>Levine Leichtman Portfolio Company Trinity Consultants Expands Into Adjacent Sectors</p> */}
@@ -59,7 +59,7 @@ export const CaseStudies = () => {
                
                </p>
                </Col>
-               <Col>
+               <Col md>
                <p className='case-second-paragraph'>
                After relocating to Australia on a Business Innovation and Investment visa, our client, 
                an experienced retail pharmacist, sought to navigate the complex landscape of investment opportunities 
@@ -88,7 +88,7 @@ export const CaseStudies = () => {
             {showTwo && (
               <Row className='mt-3'>
               <h1 className='case-sec-header '>Mastering Complex Transactions: BizVision's Strategic Approach to Youth Entrepreneurship in the Drone Repair Sector</h1>
-             <Col>
+             <Col xs="3">
              <p> 
              <p> <span className='case-first-paragraph'> TRANSACTION TYPE</span><br/>Share Purchase agreement </p>
              <p> <span className='case-first-paragraph'>INDUSTRY</span> <br/> Robotics start-up</p>
@@ -96,7 +96,7 @@ export const CaseStudies = () => {
              
              </p>
              </Col>
-             <Col>
+             <Col md>
              <p className='case-second-paragraph'>
              Amid the technological landscape, BizVision was presented with a distinctive situation: 
              two young entrepreneurs, still below the legal age, had established a specialized drone repair business. 
@@ -126,7 +126,7 @@ export const CaseStudies = () => {
              <Row className='mt-3'>
              <h1 className='case-sec-header '>
              Strategic Expansion: BizVision's Guidance in Acquiring a Pivotal Bottling Facility in Australia</h1>
-            <Col>
+            <Col md>
             {/* <p> 
             <p> <span className='case-first-paragraph'> TRANSACTION TYPE</span><br/>Debt Financing</p>
             <p> <span className='case-first-paragraph'>INDUSTRY</span> <br/> Digital Media</p>

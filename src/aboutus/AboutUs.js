@@ -1,4 +1,4 @@
-import React, { Children } from 'react'
+import React, { Children, useEffect } from 'react'
 import './Aboutus.css'
 import img1 from '../assets/img1.png';
 import { Col, Container, Row } from 'react-bootstrap'
@@ -6,11 +6,14 @@ import { Cardpage } from './Cardpage'
 import GlobalLayout from '../pages/globalLayout/GlobalLayout';
 
 export const AboutUs = () => {
+  useEffect(()=>{
+
+  },[])
   return (
     <GlobalLayout>
       <div className='hero '>
        
-        <div className='aboutusbody w-100'>
+        <div className='aboutusbody'>
           <div className='text-center aboutusbodyfont'>About Us</div>
           <p className='text-center aboutusbodyfontbody'> 10+ Years of Experience in Lower Middle Market Deal marking. <br />
             Est 2016 | Made in SYD 💙
@@ -19,10 +22,10 @@ export const AboutUs = () => {
         </div>
       
 
-        <Row className='p-5'>
-
-          <Col> <img style={{ width: '76vh', height: "75vh" }} src={img1} /></Col>
-          <Col md="" className='visionpargraph'>
+        <Row className='p-3'>
+          <Col  xs="auto" md="6">  
+          <img className='img-ceo' src={img1} /></Col>
+          <Col className='visionpargraph'>
 
 
             <p className='p-5 visionbody'><p className='visionheader py-3'> OUR VISION</p>
@@ -57,9 +60,8 @@ export const AboutUs = () => {
 
       
 
-      <main className='main'></main>
+      <div className='main'></div>
       </div>
-
     </GlobalLayout>
 
 

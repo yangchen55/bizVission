@@ -37,12 +37,12 @@ function App() {
           <Route path='/verify' element={<NewAccVerify/>} />
           <Route path='/resetpassword' element={<ResetPassword/>} />
           <Route path='/' element={<Home />} />
-          <Route path='/whoweare' element={<AboutUs />} />
+          <Route path='/who-we-are' element={<AboutUs />} />
 
 
           {/* Private router */}
 
-          <Route path='/whoweare/careetAtBizvision' element={ <CareersPage /> } />
+          <Route path='/who-we-are/careet-at-bizvision' element={ <CareersPage /> } />
           <Route path='//howitworks/hiringanadvisor/concealed' element={
            <HireAdvisor/>} />
           <Route path='//howitworks/sellingandbuyingforowners/' element={
