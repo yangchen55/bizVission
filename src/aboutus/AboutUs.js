@@ -23,7 +23,7 @@ export const AboutUs = () => {
       
 
         <Row className='p-3'>
-          <Col  xs="auto" md="6">  
+          <Col >  
           <img className='img-ceo' src={img1} /></Col>
           <Col className='visionpargraph'>
 

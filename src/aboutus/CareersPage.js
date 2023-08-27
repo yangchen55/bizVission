@@ -29,9 +29,6 @@ export const CareersPage = () => {
           </div>
         </div>
 
-
-
-
         <div className='careerbody'>
         <p className='container lifetitle p-3'>Life at Bizvision</p>
 
@@ -67,14 +64,14 @@ export const CareersPage = () => {
 
 
             <Col xs >
-              <img className='img1' style={{ width: "65vh", height: "65vh" }} src={img6} />
+              <img className='corevalues-img' src={img6} alt='core value images' />
             </Col>
             </Row>
 
 
             <Row className='p-3'>
             <Col>
-            <img className='py-2' style={{ width: "65vh", height: "65vh" }} src={img7}/>
+            <img  className='corevalues-img' alt='bizvision culture' src={img7}/>
             </Col>
 
             <Col >
@@ -127,14 +124,14 @@ export const CareersPage = () => {
               </Col>
 
               <Col> 
-               <img className='py-2' style={{ width: "65vh", height: "65vh" }} src={img8}/>
+               <img className='corevalues-img' alt='company event' src={img8}/>
               </Col>
             </Row>
 
 
             <Row className='p-3'>
               <Col>
-              <img className='py-2' style={{ width: "65vh", height: "65vh" }} src={img9}/>
+              <img  className='corevalues-img' src={img9} alt='event at HQ'/>
               </Col>
 
 
