@@ -24,7 +24,11 @@ import AddNewBlog from './pages/Blog/AddNewBlog';
 import BlogCard from './pages/FontBlog/BlogCard';
 import FontBlog from './pages/FontBlog/FontBlog'
 import { PrivateRouter } from './components/private-router/PrivateRouter';
+import { useEffect } from 'react';
 function App() {
+  useEffect(()=>{
+    
+  })
   return (
     <div>
       <BrowserRouter>

@@ -63,7 +63,7 @@ color: #343646;
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 575.98px) {
     .aboutusbodyfont{
         font-size: 26px;
     } 
@@ -75,8 +75,8 @@ color: #343646;
         width: 100%;
     }
     .img-ceo{
-        width:60vh;
-        min-height: 30vh;
+        width:52vh;
+        min-height: 35vh;
     }
     .teamheader{
         font-size: 34px;

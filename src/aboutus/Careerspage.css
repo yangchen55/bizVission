@@ -98,7 +98,7 @@ li{
    
  }
 
- @media screen and (max-width: 600px) {
+ @media screen and (max-width: 575.98px) {
   .carrerhead{
     font-size: 32px;
   }
