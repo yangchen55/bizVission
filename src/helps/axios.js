@@ -1,7 +1,10 @@
 import axios from 'axios'
-const rootUrl = "http://localhost:8000/api/v1"
+const rootUrl = process.env.NODE_ENV === "production"
+? "/api/v1"
+: "http://localhost:8000/api/v1"
 const adminApi = rootUrl + "/admin";
 const joinApi = rootUrl + "/join";
+const blogAPI = rootUrl + "/blog"
 
 const fetchprocessor = async ({method, url, data, token, isPrivate}) =>{
   try {
@@ -159,18 +162,6 @@ export const fetchNewAccessJWT = async () => {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 //readjoin
 export const fetchjoinaxios  = async () => {
     const url = joinApi;
@@ -180,5 +171,49 @@ export const fetchjoinaxios  = async () => {
     };
     return fetchprocessor(obj);
   }
+
+//Add blog 
+export const fetchBlog = async () => {
+  const url = blogAPI;
+  const obj = {
+      method: "get",
+      url,
+      isPrivate: true,
+  };
+  return fetchprocessor(obj);
+};
+
+export const postBlog = async (data) => {
+  const url = blogAPI;
+  const obj = {
+      method: "post",
+      url,
+      data,
+      isPrivate: true,
+  };
+  return fetchprocessor(obj);
+};
+
+
+export const deleteBlog = async (_id) => {
+  const url = blogAPI + "/" + _id;
+  const obj = {
+      method: "delete",
+      url,
+  };
+  return fetchprocessor(obj);
+};
+
+
+export const updateBlog = async (data) => {
+  const url = blogAPI;
+  const obj = {
+      method: "put",
+      url,
+      data,
+      isPrivate: true,
+  };
+  return fetchprocessor(obj);
+};
 
 

@@ -32,6 +32,7 @@ export const RegisterPage = () => {
   const handleonSubmit = async (e)=>{
     e.preventDefault();
 
+    
     const {confirmpassword, ...rest} = form;
     if(confirmpassword !== rest.password){
       toast.error("Password don't Match")

@@ -1,22 +1,21 @@
-.body{
-    min-height: 50vh;
+.title-body{
+    min-height: 40vh;
 }
 
  .bodytop{
     color: #326CF4;
-    font-size: 12px inter;
+    font-size: 12px;
     font-family:Inter, "Helvetica Neue", Arial, sans-serif;;
     font-weight: bold;
  }
 
- .bodyhead{
-   
+ .carrer-head{
     font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
     font-weight: bold;
     font-size: 56px;
  }
 
- .bodyparagrap{
+ .carrer-paragrap{
    font-size: 21px;
     font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
    
@@ -33,6 +32,8 @@
    font-weight: bolder;
  }
 
+
+
  .col1{
       
       font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
@@ -41,6 +42,11 @@
     
  }
 
+ .corevalues-img{
+  width:65vh ;
+  height:65vh ;
+ 
+ }
 li{
    font-size: 16px;
    font-weight: bold;
@@ -97,3 +103,27 @@ li{
    
  }
 
+ @media screen and (max-width: 575.98px) {
+  .carrer-head{
+    font-size: 28px;
+  }
+  .carrer-paragrap{
+    font-size: 12px;
+  }
+  .corevalues-img{
+    width: 50vh;
+    height: 50vh;
+
+  }
+
+}
+
+@media screen and (max-width: 768px) and (max-width: 991.98px) {
+  .carrerhead{
+    font-size: 22px;
+  }
+  .carrer-paragrap{
+    font-size: 22px;
+  }
+  
+}

@@ -113,12 +113,13 @@ export const HireAdvisor = () => {
        
 
             </div>
+            <div className='main p-5'>
+                <p className='requestButton'>Schedule a Free Consultation</p>
+                <Link to="/request-information">  <Button variant='primary' className='m-2 bold-text '>Schedule a Free Consultation <i class="fa-solid fa-arrow-right"></i></Button></Link>
+               
+            </div>
 
-           <div className='main consultation'>
-           <p > Schedule a Free Consultation</p>
-           <Link to="/request-information"> <Button>Schedule a Free Consultation {" "}<i class="fa-solid fa-check"></i> </Button></Link>
-           
-           </div>
+          
 
            <HireCaseStudies/>
 

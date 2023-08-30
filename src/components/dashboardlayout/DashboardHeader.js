@@ -27,9 +27,11 @@ export const DashboardHeader = () => {
     <Nav className="ms-auto">
   
     
-
+   <Link to="/dashboard" className='nav-link'><i class="fa-solid fa-chess-board" title="Dashboard"></i> </Link>
    <Link to="/sign-in" className='nav-link'>   <i className="fa-solid fa-house " title='Sign In Page'></i></Link>
    <Link to="/" className="nav-link" onClick={handleOnLogOut}><i class="fa-solid fa-right-to-bracket" title="Log out"></i> </Link>
+  
+
     </Nav>
   </Navbar.Collapse>
 </Container>
