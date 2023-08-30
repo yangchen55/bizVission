@@ -21,7 +21,7 @@ export const CareersPage = () => {
         <div className='title-body'>
           <div className="container p-3">
             <h1 className='bodytop'> CARRERS AT BIZVISION</h1>
-            <p className='carrerhead'>Pursue the extraordinary.</p>
+            <p className='carrer-head'>Pursue the extraordinary.</p>
             <p className='carrer-paragrap'>We are building the indispendable platform for success in
               the private capital markets.</p>
 
@@ -70,11 +70,11 @@ export const CareersPage = () => {
 
 
             <Row className='p-3'>
-            <Col>
+            <Col className='mt-3'>
             <img  className='corevalues-img' alt='bizvision culture' src={img7}/>
             </Col>
 
-            <Col >
+            <Col className='mt-4' >
             <p className=' col1'>
                 <p className='lifetitle'>BizVision Culture</p>
                 Culture is the collection of our personality types, behaviors as an<br />  <br />
@@ -130,12 +130,12 @@ export const CareersPage = () => {
 
 
             <Row className='p-3'>
-              <Col>
+              <Col className='mt-3'>
               <img  className='corevalues-img' src={img9} alt='event at HQ'/>
               </Col>
 
 
-              <Col >
+              <Col  className='mt-3'>
               
               <p className=' col1'> <p className='boldfont'>Events @ HQ</p>
               Whether we’re celebrating a company milestone by bringing in a mechanical bull or hosting post-work happy hour events like Taco Tuesday or Murder Mystery, nothing beats when we can gather in-person. Piñatas, arcade games, magicians, nothing is off-limits.

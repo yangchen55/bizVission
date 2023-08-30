@@ -9,7 +9,7 @@
     font-weight: bold;
  }
 
- .carrerhead{
+ .carrer-head{
     font-family: Inter, "Helvetica Neue", Arial, sans-serif;;
     font-weight: bold;
     font-size: 56px;
@@ -104,11 +104,11 @@ li{
  }
 
  @media screen and (max-width: 575.98px) {
-  .carrerhead{
+  .carrer-head{
     font-size: 28px;
   }
   .carrer-paragrap{
-    font-size: 18px;
+    font-size: 12px;
   }
   .corevalues-img{
     width: 50vh;
