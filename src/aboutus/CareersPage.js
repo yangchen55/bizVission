@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Careerspage.css'
 import { Button, Col, Row } from 'react-bootstrap'
 import img6 from '../assets/img6.jpg'
@@ -11,31 +11,30 @@ export const CareersPage = () => {
   const bringToTop = ()=>{
     window.scrollTo(0,0);
   }
+  useEffect(()=>{
+
+  })
   return (
     <GlobalLayout>
       <div className='hero'>
 
-        <div className='body'>
-          <div className="container p-5">
-            <p className='bodytop'> CARRERS AT BIZVISION</p>
-            <h1 className='bodyhead'>Pursue the extraordinary. </h1>
-            <p className='bodyparagrap'>We are building the indispendable platform for success in
+        <div className='title-body'>
+          <div className="container p-3">
+            <h1 className='bodytop'> CARRERS AT BIZVISION</h1>
+            <p className='carrer-head'>Pursue the extraordinary.</p>
+            <p className='carrer-paragrap'>We are building the indispendable platform for success in
               the private capital markets.</p>
 
             <Button>Join Our Team <i class="fa-solid fa-check"></i></Button>
           </div>
         </div>
 
-
-
-
         <div className='careerbody'>
-          <p className='container p-2 lifetitle'>Life at Bizvision</p>
+        <p className='container lifetitle p-3'>Life at Bizvision</p>
 
           <Row>
             <Col className='p-5'>
-
-              <p className=' col1'>
+              <p className='col1'>
                 <p className='lifetitle'>Core values</p>
                 At Axial, our values are the principles that guide our descision-making
                 with <br /> our members, our prospects, ours partners, and our colleagues.
@@ -64,18 +63,18 @@ export const CareersPage = () => {
             </Col>
 
 
-            <Col >
-              <img className='p-2' style={{ width: "77vh", height: "60vh" }} src={img6} />
+            <Col xs >
+              <img className='corevalues-img' src={img6} alt='core value images' />
             </Col>
             </Row>
 
-            <Row className='p-3' >
 
-            <Col >
-            <img className='py-2' style={{ width: "77vh", height: "60vh" }} src={img7}/>
+            <Row className='p-3'>
+            <Col className='mt-3'>
+            <img  className='corevalues-img' alt='bizvision culture' src={img7}/>
             </Col>
 
-            <Col>
+            <Col className='mt-4' >
             <p className=' col1'>
                 <p className='lifetitle'>BizVision Culture</p>
                 Culture is the collection of our personality types, behaviors as an<br />  <br />
@@ -123,20 +122,20 @@ export const CareersPage = () => {
               </p>
             
               </Col>
+
               <Col> 
-               <img className='py-2' style={{ width: "77vh", height: "60vh" }} src={img8}/>
+               <img className='corevalues-img' alt='company event' src={img8}/>
               </Col>
             </Row>
 
 
             <Row className='p-3'>
-              <Col>
-              <img className='py-2' style={{ width: "77vh", height: "60vh" }} src={img9}/>
+              <Col className='mt-3'>
+              <img  className='corevalues-img' src={img9} alt='event at HQ'/>
               </Col>
 
 
-
-              <Col>
+              <Col  className='mt-3'>
               
               <p className=' col1'> <p className='boldfont'>Events @ HQ</p>
               Whether we’re celebrating a company milestone by bringing in a mechanical bull or hosting post-work happy hour events like Taco Tuesday or Murder Mystery, nothing beats when we can gather in-person. Piñatas, arcade games, magicians, nothing is off-limits.
@@ -214,14 +213,14 @@ export const CareersPage = () => {
           </Row>
         </div>
 
+        <main className='main'>
+         
 
+         </main>
 
       </div>
 
-      <main className='main'>
-         
-
-            </main>
+      
 
     </GlobalLayout>
 

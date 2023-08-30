@@ -6,7 +6,6 @@ import { CareersPage } from './aboutus/CareersPage'
 import './App.css'
 
 
-
 import Home from './pages/HomePage/Home';
 import { HireAdvisor } from './pages/forbusinessBuyers/hireadvisor/HireAdvisor';
 import { ExitBusiness } from './pages/forbusinessBuyers/exitbusiness/ExitBusiness';
@@ -20,29 +19,58 @@ import { ResetPassword } from './pages/resetpassword/ResetPassword';
 
 import Acquiring from './pages/platform/Acquiring/Acquiring';
 import Selling from './pages/platform/selling&Raising/Selling';
+import Blog from './pages/Blog/Blog';
+import AddNewBlog from './pages/Blog/AddNewBlog';
+import BlogCard from './pages/FontBlog/BlogCard';
+import FontBlog from './pages/FontBlog/FontBlog'
+import { PrivateRouter } from './components/private-router/PrivateRouter';
+import { useEffect } from 'react';
 function App() {
+  useEffect(()=>{
+    
+  })
   return (
     <div>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/whoweare' element={<AboutUs />} />
-          <Route path='/whoweare/careetAtBizvision' element={<CareersPage />} />
-          <Route path='//howitworks/hiringanadvisor/concealed' element={<HireAdvisor/>} />
-          <Route path='//howitworks/sellingandbuyingforowners/' element={<ExitBusiness/>} />
+          
           <Route path='/request-information' element={<JoinBizvision/>} />
           <Route path='/sign-in' element={<SignPage/>} />
           <Route path='/register-page' element={<RegisterPage/>} />
-          
           <Route path='/dashboard' element={<Dashboard/>} />
           <Route path='/verify' element={<NewAccVerify/>} />
           <Route path='/resetpassword' element={<ResetPassword/>} />
+          <Route path='/' element={<Home />} />
+          <Route path='/who-we-are' element={<AboutUs />} />
 
 
+          {/* Private router */}
+
+          <Route path='/who-we-are/careet-at-bizvision' element={ <CareersPage /> } />
+          <Route path='//howitworks/hiringanadvisor/concealed' element={
+           <HireAdvisor/>} />
+          <Route path='//howitworks/sellingandbuyingforowners/' element={
+          <ExitBusiness/>} />
+          <Route path='selling-raising' element={
+          <Selling />} />
+          <Route path='/buying-investing' element={
+          <Acquiring/>} />
+
+          {/* Blog  */}
+
+          <Route path='/blog' element={
+          <Blog/>} />
+          <Route path='/addBlog' element={
+          <AddNewBlog />} />
 
 
-          <Route path='selling-raising' element={<Selling />} />
-          <Route path='/buying-investing' element={<Acquiring />} />
+          <Route path="/forum/:tag" element={
+          <FontBlog/>} />
+          <Route path="/forum/" element={
+          <FontBlog />} />
+          <Route path='/forum_blog/:title' element={
+          <BlogCard />}/>
+
         </Routes>
       </BrowserRouter>
       <ToastContainer/>

@@ -1,32 +1,34 @@
 .aboutusbody{
     background-color: #F3FAFF;
-    width: 100%;
     min-height: 30vh;
+    width: 100%;
 }
 
 .aboutusbodyfont{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
     font-size: 48px;
     font-weight: bold;
     
 }
 .aboutusbodyfontbody{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
     font-size: 21px;
-    
+
 }
 
-.hero{
-    
-}
+
 
 .visionpargraph{
     background-color: #F3FAFF;
 }
-
+.img-ceo{
+    width: 70vh;
+    min-height: 60vh;
+    padding:auto;
+}
 .visionheader{
     font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Inter, "Helvetica Neue", Arial, sans-serif;
     color:#326CF3;
     margin: 0px 0px 24px;
     font-weight: bold;
@@ -34,14 +36,14 @@
 
 .visionbody{
     color: #343646;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
     margin: 0px 0px 24px;
     font-size: 16px inter;
 }
 
 .teamheader{
 font-size: 48px;
-font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif Arial, Helvetica, sans-serif;
+font-family: Inter, "Helvetica Neue", Arial, sans-serif;
 margin: 0px 0px 20px;
 color: #343646;
 }
@@ -50,12 +52,33 @@ color: #343646;
     color: #326CF4;
     font-size: 18px;
     margin: 0px 0px 6px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
 }
 
 .teamnamebody{
   color: #323646;
-    font-family: sans-serif, Times, serif, Helvetica, sans-serif;
+    font-family: Inter, "Helvetica Neue", Arial, sans-serif;
     font-size: 11px;
     font-weight: bold;
+}
+
+
+@media screen and (max-width: 575.98px) {
+    .aboutusbodyfont{
+        font-size: 26px;
+    } 
+    .aboutusbodyfontbody{
+        font-size: 16px;
+    }
+    .aboutusbody{
+        min-height: 20vh;
+        width: 100%;
+    }
+    .img-ceo{
+        width:52vh;
+        min-height: 35vh;
+    }
+    .teamheader{
+        font-size: 34px;
+    }
 }
