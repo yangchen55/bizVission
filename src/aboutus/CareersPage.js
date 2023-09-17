@@ -12,7 +12,6 @@ export const CareersPage = () => {
     window.scrollTo(0,0);
   }
   useEffect(()=>{
-
   })
   return (
     <GlobalLayout>
